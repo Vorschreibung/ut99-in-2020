@@ -12,10 +12,10 @@ compile_md() {
 }
 
 if ! git show-ref "refs/heads/gh-pages" >/dev/null; then
-    git checkout --orphan "gh-pages"
+    git checkout --orphan "gh-pages" || die "failed to create & switch to gh-pages"
+else
+    git checkout "gh-pages"  || die "failed to switch to gh-pages"
 fi
-
-git checkout "gh-pages"  || die "failed to switch to gh-pages"
 
 
 compile_md "./index"
