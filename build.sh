@@ -13,6 +13,7 @@ compile_md() {
 
 if ! git show-ref "refs/heads/gh-pages" >/dev/null; then
     git checkout --orphan "gh-pages" || die "failed to create & switch to gh-pages"
+    git reset
 else
     git checkout "gh-pages"  || die "failed to switch to gh-pages"
 fi
