@@ -11,6 +11,11 @@ compile_md() {
     git add "$outputf" || die "git: failed to add $outputf"
 }
 
+if ! git show-ref "refs/heads/gh-pages" >/dev/null; then
+    git checkout --orphan "gh-pages"
+fi
+
 git checkout "gh-pages"  || die "failed to switch to gh-pages"
+
 
 compile_md "./index"
