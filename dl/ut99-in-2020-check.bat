@@ -1,5 +1,5 @@
 @ECHO OFF
-REM UT99 in 2020 Companion Script v1.2 (2020-09-07) (d221325f285d52f0)
+REM UT99 in 2020 Companion Script v1.3 (2020-09-07) (1662a73e312b227d)
 REM https://vorschreibung.github.io/ut99-in-2020/
 REM - - - - - - - - - - - - - - - - - - - - - - - 
 REM this is a simple companion script to the UT99 in 2020 guide that is to be 
