@@ -30,6 +30,7 @@ done
 
 output_files=(
     ./dl/*
+    ./*.png
 )
 compile_md() {
     inputf="$1.md"
