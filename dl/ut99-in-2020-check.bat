@@ -1,5 +1,5 @@
 @ECHO OFF
-REM UT99 in 2020 Companion Script v1.2 (2020-09-07) (d221325f285d52f0)
+REM UT99 in 2020 Companion Script v1.3 (2020-09-07) (1662a73e312b227d)
 REM https://vorschreibung.github.io/ut99-in-2020/
 REM - - - - - - - - - - - - - - - - - - - - - - - 
 REM this is a simple companion script to the UT99 in 2020 guide that is to be 
@@ -106,7 +106,6 @@ FOR /F "usebackq tokens=*" %%A IN ("./System/UnrealTournament.ini") DO (
 
         REM R8. directinput
         IF "!section!"=="WinDrv.WindowsClient" IF "!key!"=="UseDirectInput" IF NOT "!val!"=="True" (
-            REM @TODO check if ddinput dll exists
             ECHO [ERROR] You have disabled Direct Input. This leads to buggy mouse aim.
             ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#use-ut99dinput ^)
             ECHO.
