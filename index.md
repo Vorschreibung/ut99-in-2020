@@ -133,8 +133,12 @@ Merely start the game, the dialogue will appear by itself.
 ##### Navigating the video driver selection window
 1. check the Checkbox named **Show all devices**
 2. you will now spot a **Direct3D 10 Support** entry in the list, select it and confirm your selection by pressing the **[Next >]** button
+
+![Video Driver Selection Window](img_switch_video_driver_d3d10.png)
+
 3. confirm your selection once again by pressing the preceding **[Next >]** button
 4. relaunch the game by pressing the **[Run!]** button
+
 
 ##### Finishing touches
 After switching to the Direct3D 10 Driver start the game at least once so it will populate the `UnrealTournament.ini` (used for configuration) with defaults.
