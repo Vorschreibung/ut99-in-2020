@@ -181,9 +181,8 @@ ConfiguredInternetSpeed=20000
 
 ### Disable Automatic Downloads
 Why to do it:
-- indiscriminately downloading potentially harmful files from unknown servers is
-  not a great idea safety wise
-- doesn't mess up your local installation after playing netplay
+- stops your client from indiscriminately downloading potentially harmful files from servers
+- doesn't mess up your local installation after playing online
 
 By default connecting to an internet game indiscriminately downloads and
 installs archives. Disabling this improves safety and gives control over your
