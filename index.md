@@ -8,9 +8,9 @@ of all-in-one packs/patches circulating around.
 Ontop of that different sources of UT99 come in different forms that can cause
 interplay issues.
 
-The goal of this guide is to get UT99 running without compatibility issues on
-modern systems as close to the original as possible, in the simplest, most
-minimal form.
+The goal of this guide is to get UT99 GOTY running without compatibility issues
+on modern systems as close to the original as possible, in the simplest, most
+minimal way.
 
 **!IMPORTANT!** This guide comes with a short [companion script](dl/ut99-in-2020-check.bat)
 that you can drop into the root of your UT99 installation and run, it will not
