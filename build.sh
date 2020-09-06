@@ -28,12 +28,14 @@ while :; do
 done
 
 
-outputHtmls=()
+output_files=(
+    ./dl/*
+)
 compile_md() {
     inputf="$1.md"
     outputf="$1.html"
     vorsch-md2html "$inputf" > "$outputf" || die "failed to compile $inputf"
-    outputHtmls+=("$outputf")
+    output_files+=("$outputf")
 }
 
 autoversion "./dl/ut99-in-2020-check.bat" "./dl/ut99-install-umod.bat"
@@ -41,12 +43,18 @@ compile_md "./index"
 compile_md "./checksums"
 
 if [[ $commit ]]; then
-    if ! git show-ref "refs/heads/gh-pages" >/dev/null; then
-        git checkout --orphan "gh-pages" || die "failed to create & switch to gh-pages"
-        git reset
-    else
-        git checkout "gh-pages"  || die "failed to switch to gh-pages"
-    fi
+    md_repo_dir=$(realpath "$PWD")
+    pages_repo_dir=$(realpath ../"$(basename "$PWD")"-pages)
 
-    git add "${outputHtmls[@]}" || die "git: failed to add ${outputHtmls[*]}"
+    pushd "$pages_repo_dir" || die "failed to cd to $pages_repo_dir - we're assuming a working copy containing the pages branch"
+
+    cp_and_add() {
+        mkdir -p "$(dirname "$pages_repo_dir/$1")" || die "failed to mkdirs for $1"
+        cp "$md_repo_dir/$1" "$pages_repo_dir/$1" || die "failed to copy $1"
+        git add "$pages_repo_dir/$1" || die "failed to add $1"
+    }
+
+    for html in "${output_files[@]}"; do
+        cp_and_add "$html"
+    done
 fi
