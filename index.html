@@ -26,6 +26,13 @@ img {
     max-width: 100%;
 }
 
+.bigimg-p {
+    text-align: center;
+}
+
+.footer { margin-left: 8px; margin-top: 0px; color: #666 }
+.footer-sep { margin-top: 50px }
+
 h1 { font-size: 24px; margin: 46px 0px 22px }
 h2 { font-size: 22px; margin: 44px 0px 20px }
 h3 { font-size: 20px; margin: 42px 0px 18px }
@@ -84,6 +91,10 @@ p + ul, p + ol {
     margin-top: -8px;
 }
 
+.toc-ul {
+    margin-top: 0px;
+}
+
 h1:first-of-type {
     padding-top: 24;
 }
@@ -103,10 +114,12 @@ pre {
     background-color : #E5E9EB;
     font-family      : SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     padding          : 11px 17px;
+    white-space      : pre-wrap;
 }
 code {
     background-color : #E5E9EB;
     cursor           : text;
+    white-space      : pre-wrap;
 }
 
 li {
@@ -138,12 +151,286 @@ h3 { letter-spacing: -0.3px }
 h4 { letter-spacing: -0.2px }
 
 	</style>
-    <title>title</title>
+    <title>UT99 in 2020</title>
   </head>
   <body>
   <div id="main">
-  <h1 id="ut99-in-2020"><a class="numb-a" href="#ut99-in-2020">UT99 in 2020</a></h1><p>Initial commit. More to come ...</p>
+  <h1 id="ut99-in-2020"><a class="numb-a" href="#ut99-in-2020">UT99 in 2020</a></h1><p class="bigimg-p"><img src="img_banner.png" alt="Banner" class="bigimg" /></p>
+<p>Getting UT99 to run in 2020 is not a particularly huge issue but there are
+compatibility issues, version mismatch issues in netplay and a confusing amount
+of all-in-one packs/patches circulating around.</p>
+<p>Ontop of that different sources of UT99 come in different forms that can cause
+interplay issues.</p>
+<p>The goal of this guide is to get UT99 running without compatibility issues on
+modern systems as close to the original as possible, in the simplest, most
+minimal form.</p>
+<p><strong>!IMPORTANT!</strong> This guide comes with a short <a href="dl/ut99-in-2020-check.bat">companion script</a>
+that you can drop into the root of your UT99 installation and run, it will not
+modify your installation but instead check it for issues that are the subject of
+this guide and point you back to the guide about how to fix them. If you don't
+care about reading this guide in full, you can just run and follow the script
+until it reports no warnings/errors.</p>
+<p>The script is a simple, well-documented batch file that even without much prior
+knowledge can be easily verified as safe to run and will run on practically
+every Windows version.</p>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#basic-installation"><span class="numb">1.</span>Basic Installation</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#goty-disc-version"><span class="numb">1.1.</span>GOTY Disc Version</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#goty-gog-version"><span class="numb">1.2.</span>GOTY GOG Version</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#goty-steam-version"><span class="numb">1.3.</span>GOTY Steam Version</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#shared-steps"><span class="numb">1.4.</span>Shared Steps</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#installing-the-latest-official-patch-436"><span class="numb">1.4.1.</span>Installing the latest official patch 436</a></li>
+</ul>
+</ul>
+<li class="toc-li">
+<a class="toc-a" href="#community-compatibility-fixes"><span class="numb">2.</span>Community Compatibility Fixes</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#use-updated-d3d10-video-driver"><span class="numb">2.1.</span>Use updated D3d10 Video Driver</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#changing-the-video-driver"><span class="numb">2.1.1.</span>Changing the video driver</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#option-1-i-have-started-the-game-before"><span class="numb">2.1.1.1.</span>Option 1: I have started the game before</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#option-2-i-havent-started-the-game-before"><span class="numb">2.1.1.2.</span>Option 2: I haven't started the game before</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#navigating-the-video-driver-selection-window"><span class="numb">2.1.1.3.</span>Navigating the video driver selection window</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#finishing-touches"><span class="numb">2.1.1.4.</span>Finishing touches</a></li>
+</ul>
+</ul>
+<li class="toc-li">
+<a class="toc-a" href="#use-ut99dinput"><span class="numb">2.2.</span>Use UT99Dinput</a></li>
+</ul>
+<li class="toc-li">
+<a class="toc-a" href="#configuration"><span class="numb">3.</span>Configuration</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#disable-vsync"><span class="numb">3.1.</span>Disable vsync</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#configuring-netspeed"><span class="numb">3.2.</span>Configuring Netspeed</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#disable-automatic-downloads"><span class="numb">3.3.</span>Disable Automatic Downloads</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#max-out-anti-aliasing-and-anisotropic-filtering"><span class="numb">3.4.</span>Max out anti-aliasing and anisotropic filtering</a></li>
+</ul>
+<li class="toc-li">
+<a class="toc-a" href="#tips-for-default-bindings"><span class="numb">4.</span>Tips for Default Bindings</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#freeing-alttab"><span class="numb">4.1.</span>Freeing ALT+Tab</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#freeing-tab"><span class="numb">4.1.1.</span>Freeing TAB</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#freeing-alt"><span class="numb">4.1.2.</span>Freeing ALT</a></li>
+</ul>
+<li class="toc-li">
+<a class="toc-a" href="#show-scoreboard"><span class="numb">4.2.</span>Show Scoreboard</a></li>
+</ul>
+<li class="toc-li">
+<a class="toc-a" href="#tips--tricks"><span class="numb">5.</span>Tips &amp; Tricks</a></li>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#installing-umod-files"><span class="numb">5.1.</span>Installing .umod files</a></li>
+</ul>
+</ul>
+<h2 id="basic-installation"><a class="numb-a" href="#basic-installation"><span class="numb">1.</span>Basic Installation</a></h2><p>Different sources of UT99 differ in significant ways from each other, our
+first goal is to get a practically equivalent installation no matter where we
+get UT99 from.</p>
+<p>Our target goal is a <em>clean</em> UT99 GOTY installation with the latest official
+patch (v436) and the exact same game contents.</p>
+<p>At the time of this guide 3 different sources are known described below.</p>
+<h3 id="goty-disc-version"><a class="numb-a" href="#goty-disc-version"><span class="numb">1.1.</span>GOTY Disc Version</a></h3><p>If you own the disc version you will own 1-2 discs.</p>
+<p><strong>!IMPORTANT!</strong> In case you own 2 discs, it is vital that you do <strong>not</strong> install
+the 2nd disc, it contains now 2 outdated versions of mods
+(<a href="https://chaoticdreams.org/chaosut/">ChaosUT</a> and
+<a href="https://www.moddb.com/mods/rocket-arenaut">RocketArena</a>), which you can grab in
+newer versions from their respective sources if you care about them, as well as
+the S3TC Texture Pack that causes significant issues in netplay.</p>
+<p>Using the 2nd disc has been discouraged by the developers themselves and neither
+the later released GOG Version nor the Steam Version therefore contain its
+contents.</p>
+<p>Instead, insert the 1st disc and run the <code>Setup.exe</code> contained therein.
+The Installation process is largely self-describing until you reach the step
+where it will ask you what Components to install.</p>
+<p class="bigimg-p"><img src="img_disk_installation.png" alt="Disk Installation Components" class="bigimg" /></p>
+<p>In this step make sure to <strong>uncheck</strong> both the <code>NetGames USA Stat Utils</code> and
+<code>DirectX</code> components.</p>
+<p>The NetGames component was an online service that received gameplay stats from
+your client, it is not defunct and neither the GOG nor Steam Version ships with
+it.</p>
+<p>The DirectX component is a DirectX 7 driver that you won't need on modern
+systems, especially because we will exchange the shipped DirectX ut99 video driver
+with a more modern version to fix compatibility issues.</p>
+<p>From there on continue the installation until it succeeds.</p>
+<p>Once installed update the installation to the latest official version 436, <a href="#installing-the-latest-official-patch-436">see
+here</a>.</p>
+<h3 id="goty-gog-version"><a class="numb-a" href="#goty-gog-version"><span class="numb">1.2.</span>GOTY GOG Version</a></h3><p>The GOG Version at the time of this guide already comes with a clean 436
+installation that we can use as a basis.</p>
+<p>Please <a href="#community-compatibility-fixes">continue here</a>.</p>
+<h3 id="goty-steam-version"><a class="numb-a" href="#goty-steam-version"><span class="numb">1.3.</span>GOTY Steam Version</a></h3><p>The Steam Version at the time of this guide claims to be a clean 436
+installation but the UT99 executable has been altered towards ends that are
+undocumented.</p>
+<p>Because there have been reports of netplay/compatibility issues with other UT99
+clients, <a href="#installing-the-latest-official-patch-436">install the latest official 436 patch</a>
+over your Steam installation.</p>
+<p>After you have done so, your installation will be binary-equal to the GOG and
+updated disk version.</p>
+<p><strong>NOTE</strong> if <em>VERIFY INTEGRITY OF GAME FILES...</em> is run through Steam, the
+files will be reverted and need to be patched again, the attached companion
+script of this guide checks and warns you for this case</p>
+<h3 id="shared-steps"><a class="numb-a" href="#shared-steps"><span class="numb">1.4.</span>Shared Steps</a></h3><h4 id="installing-the-latest-official-patch-436"><a class="numb-a" href="#installing-the-latest-official-patch-436"><span class="numb">1.4.1.</span>Installing the latest official patch 436</a></h4><p>The latest official patch is 436 which you can <a href="dl/UTPatch436nodelta.exe">download here</a> (<a href="checksums.html#official-patch-436">checksums</a>).</p>
+<p>The installation is self-describing, make sure to set the correct path to your
+UT99 installation.</p>
+<h2 id="community-compatibility-fixes"><a class="numb-a" href="#community-compatibility-fixes"><span class="numb">2.</span>Community Compatibility Fixes</a></h2><p>These come in the form of <code>.dll</code> files that fix compatibility issues you will
+otherwise confront on more modern systems.</p>
+<p>All the community fixes provide sources for you to verify for safety and build
+yourself.</p>
+<h3 id="use-updated-d3d10-video-driver"><a class="numb-a" href="#use-updated-d3d10-video-driver"><span class="numb">2.1.</span>Use updated D3d10 Video Driver</a></h3><p>Why to do it:</p>
+<ul>
+<li>fixes crashes / increases stability</li>
+<li>improves input latency significantly</li>
+<li>enables higher resolutions, automatic-fov and anti-aliasing/anisotropic-filtering</li>
+</ul>
+<p>Download the Direct3D 10 video driver from <a href="http://www.kentie.net/article/d3d10drv/">here</a> (<a href="checksums.html#d3d10-video-driver">checksums</a>) and unpack it (including the subdirectory it extracts) into your <code>UT99\System</code> directory.</p>
+<p><strong>NOTE</strong> If you care to build these from source yourself <a href="http://www.kentie.net/article/d3d10drv/files/src/">see here</a>.</p>
+<!-- If you care for an explanation as to why this video-driver is prefered to its
+alternatives see [here](#why-prefer-the-d3d10-video-driver). -->
+<h4 id="changing-the-video-driver"><a class="numb-a" href="#changing-the-video-driver"><span class="numb">2.1.1.</span>Changing the video driver</a></h4><p>The initial steps of getting the video driver selection window depend on if you have started the game before or if this is a fresh installation.</p>
+<h5 id="option-1-i-have-started-the-game-before"><a class="numb-a" href="#option-1-i-have-started-the-game-before"><span class="numb">2.1.1.1.</span>Option 1: I have started the game before</a></h5><ol>
+<li>in the menu go to <strong>Options</strong> -&gt; <strong>Preferences</strong></li>
+<li>at the top next to <strong>Video Driver</strong> press the <strong>[Change]</strong> button</li>
+<li>confirm the preceding dialogue with <strong>Yes</strong></li>
+<li>UT99 will now close and open a new Window where you can select the video driver</li>
+</ol>
+<h5 id="option-2-i-havent-started-the-game-before"><a class="numb-a" href="#option-2-i-havent-started-the-game-before"><span class="numb">2.1.1.2.</span>Option 2: I haven't started the game before</a></h5><p>Merely start the game, the dialogue will appear by itself.</p>
+<h5 id="navigating-the-video-driver-selection-window"><a class="numb-a" href="#navigating-the-video-driver-selection-window"><span class="numb">2.1.1.3.</span>Navigating the video driver selection window</a></h5><ol>
+<li>check the Checkbox named <strong>Show all devices</strong></li>
+<li>you will now spot a <strong>Direct3D 10 Support</strong> entry in the list, select it and confirm your selection by pressing the <strong>[Next &gt;]</strong> button</li>
+<li>confirm your selection once again by pressing the preceding <strong>[Next &gt;]</strong> button</li>
+<li>relaunch the game by pressing the <strong>[Run!]</strong> button</li>
+</ol>
+<h5 id="finishing-touches"><a class="numb-a" href="#finishing-touches"><span class="numb">2.1.1.4.</span>Finishing touches</a></h5><p>After switching to the Direct3D 10 Driver start the game at least once so it will populate the <code>UnrealTournament.ini</code> (used for configuration) with defaults.</p>
+<h3 id="use-ut99dinput"><a class="numb-a" href="#use-ut99dinput"><span class="numb">2.2.</span>Use UT99Dinput</a></h3><p>Why to do it:</p>
+<ul>
+<li>fixes forced mouse acceleration (affects all Windows versions &gt; WinXP)</li>
+<li>fixes an out-of-place looking otherwise permanent bulky crosshair-cursor
+appearing and sticking around ingame after ALT+TABing</li>
+</ul>
+<p>Get <a href="https://github.com/Vorschreibung/UT99DInput">UT99Dinput</a> (<a href="https://github.com/Vorschreibung/UT99DInput/releases/download/v3/UT99DInput-v3.zip">download</a>) (<a href="checksums.html#ut99dinput">checksum</a>) and put the <code>dinput.dll</code> in your <code>UT99\System</code> directory.</p>
+<p>In the menu ingame, make sure to enable the <strong>DirectInput</strong> setting found in the
+<strong>Controls</strong> Settings Tab.</p>
+<h2 id="configuration"><a class="numb-a" href="#configuration"><span class="numb">3.</span>Configuration</a></h2><h3 id="disable-vsync"><a class="numb-a" href="#disable-vsync"><span class="numb">3.1.</span>Disable vsync</a></h3><p>Why to do it:</p>
+<ul>
+<li>improves input latency significantly</li>
+</ul>
+<p>Using the Direct3D 10 driver, add/set the following lines below the
+<code>[D3D10Drv.D3D10RenderDevice]</code>-section in <code>UT99/System/UnrealTournament.ini</code>,
+replacing <code>60</code> with your <em>current refresh rate</em> supported by your monitor
+(<strong>don't</strong> go higher than that)</p>
+<pre><code>VSync=False
+FPSLimit=60
+RefreshRate=60
+</code></pre>
+<h3 id="configuring-netspeed"><a class="numb-a" href="#configuring-netspeed"><span class="numb">3.2.</span>Configuring Netspeed</a></h3><p>Why to do it:</p>
+<ul>
+<li>fixes high-latency scenarios in Internet games</li>
+</ul>
+<p>Add/set the following lines below the <code>[Engine.Player]</code>-section in <code>UT99/System/UnrealTournament.ini</code></p>
+<pre><code>ConfiguredInternetSpeed=20000
+</code></pre>
+<h3 id="disable-automatic-downloads"><a class="numb-a" href="#disable-automatic-downloads"><span class="numb">3.3.</span>Disable Automatic Downloads</a></h3><p>Why to do it:</p>
+<ul>
+<li>indiscriminately downloading potentially harmful files from unknown servers is
+not a great idea safety wise</li>
+<li>doesn't mess up your local installation after playing netplay</li>
+</ul>
+<p>By default connecting to an internet game indiscriminately downloads and
+installs archives. Disabling this improves safety and gives control over your
+installation back to you.</p>
+<p>However you will not be able to connect to Servers that run non-standard
+mods/maps this way. This is still recommended as a default. Be cognizant once
+you allow downloads again to only connect to trusted ones.</p>
+<p>Add/set the following lines below the <code>[IpDrv.TcpNetDriver]</code>-section in <code>UT99/System/UnrealTournament.ini</code></p>
+<pre><code>AllowDownloads=False
+</code></pre>
+<h3 id="max-out-anti-aliasing-and-anisotropic-filtering"><a class="numb-a" href="#max-out-anti-aliasing-and-anisotropic-filtering"><span class="numb">3.4.</span>Max out anti-aliasing and anisotropic filtering</a></h3><p>Why to do it:</p>
+<ul>
+<li>improves visuals</li>
+</ul>
+<p>Using the Direct3D 10 driver, add/set the following lines below the <code>[D3D10Drv.D3D10RenderDevice]</code>-section in <code>UT99/System/UnrealTournament.ini</code></p>
+<pre><code>Antialiasing=16
+Anisotropy=16
+</code></pre>
+<h2 id="tips-for-default-bindings"><a class="numb-a" href="#tips-for-default-bindings"><span class="numb">4.</span>Tips for Default Bindings</a></h2><p>Some of the Default Bindings <strong>can not</strong> be changed through the menu and have to
+be set through the <code>UT99/System/User.ini</code> file.</p>
+<p>Especially because some of these interfere with ALT+Tabing, they are added here
+for completion's sake and should be considered.</p>
+<h3 id="freeing-alttab"><a class="numb-a" href="#freeing-alttab"><span class="numb">4.1.</span>Freeing ALT+Tab</a></h3><h4 id="freeing-tab"><a class="numb-a" href="#freeing-tab"><span class="numb">4.1.1.</span>Freeing TAB</a></h4><p>By default TAB binds an awful version of the console (a better one can be bound
+in the Input Menu via <strong>Preferences</strong> → <strong>Controls</strong> → <strong>Console</strong> →
+<strong>Console Key</strong>), this will cause you to open a sticky console every time you
+ALT+Tab that you have to exit via ESC before regaining ingame control.</p>
+<p>To disable this simply free TAB by setting the corresponding line in <code>UT99/System/User.ini</code></p>
+<pre><code>Tab=
+</code></pre>
+<h4 id="freeing-alt"><a class="numb-a" href="#freeing-alt"><span class="numb">4.1.2.</span>Freeing ALT</a></h4><p>By default the ALT key is bound to firing your weapon which can not be disabled
+ingame, this will cause you to shoot your weapon every time you ALT+Tab.</p>
+<p>to disable this simply free Alt by setting the corresponding line in <code>UT99/System/User.ini</code></p>
+<pre><code>Alt=
+</code></pre>
+<h3 id="show-scoreboard"><a class="numb-a" href="#show-scoreboard"><span class="numb">4.2.</span>Show Scoreboard</a></h3><p>By default F1 is bound to toggle the Scoreboard, which is harder to reach,
+consider binding it to something more comfortably within reach via the
+<code>ShowScores</code> Command in your <code>UT99/System/User.ini</code> e.g.:</p>
+<pre><code>C=ShowScores
+</code></pre>
+<p><strong>NOTE</strong> There is no built-in way to show the Scoreboard only while holding down a
+key, some guides propose a workaround by using |-pipes but these work
+inconsistently, meaning in some cases the Scoreboard will not be hidden once you
+release your key again and become sticky, requiring you to fallback to the F1
+key to toggle it off, for these reasons it is not recommended here.</p>
+<!--
+## Reasoning
 
+### Why prefer the d3d10 video driver?
+I'm aware of the following alternative "modern" video drivers:
+
+- [OpenGL]
+- [D3d9]
+-->
+<h2 id="tips--tricks"><a class="numb-a" href="#tips--tricks"><span class="numb">5.</span>Tips &amp; Tricks</a></h2><h3 id="installing-umod-files"><a class="numb-a" href="#installing-umod-files"><span class="numb">5.1.</span>Installing .umod files</a></h3><p>Drop <a href="dl/ut99-install-umod.bat">this script</a> into the root of your UT99
+Installation and then drag and drop the <code>.umod</code> files you want to install onto
+it.</p>
+<p>This is relevant for installing mods and maps which are often distributed as
+<code>.umod</code> files.</p>
+<!--
+## Obsolete points
+### Opengl (without speeding up the game)
+using the OpenGL driver, add the following lines to `[OpenGLDrv.OpenGLRenderDevice]`, replacing `144` with a *refresh rate supported by your monitor* that you want to use
+```
+RefreshRate=144
+FrameRateLimit=144
+SwapInterval=0
+```
+
+**explanation**  
+`SwapInterval=0` disables vsync, but there is no fps limit enforced in the engine,
+even worse: the simulation rate of the game is set to a fixed interval depending on the `RefreshRate` used,
+meaning if the game starts with e.g. `RefreshRate=144` and you manage to render 1440 fps, the game will literally run 10x the speed,
+to make sure your simulation neither speeds up nor slows down, the `RefreshRate` and `FrameRateLimit` variables have to be set to the **exact** same value
+-->
+<hr class="footer-sep" />
+<p class="footer">Last Updated: 2020-09-07T00:44:40+02:00</p>
   </div>
   </body>
 </html>

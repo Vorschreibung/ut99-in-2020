@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+	<style type="text/css" media="screen">
+a, a:link, a:hover, a:active { color: #0000FF }
+a:visited { color: #7700FF }
+
+a, a:link, a:visited { text-decoration: none }
+a:hover, a:active { text-decoration: underline }
+
+body {
+    margin      : 0px 16px 0px;
+    padding     : 0;
+    word-break  : break-word;
+    font-family : sans-serif;
+}
+
+#main {
+    margin    : auto;
+    max-width : 720px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bigimg-p {
+    text-align: center;
+}
+
+.footer { margin-left: 8px; margin-top: 0px; color: #666 }
+.footer-sep { margin-top: 50px }
+
+h1 { font-size: 24px; margin: 46px 0px 22px }
+h2 { font-size: 22px; margin: 44px 0px 20px }
+h3 { font-size: 20px; margin: 42px 0px 18px }
+h4 { font-size: 18px; margin: 40px 0px 16px }
+h5 { font-size: 17px; margin: 38px 0px 14px }
+h6 { font-size: 16px; margin: 36px 0px 12px }
+
+/* make margins between consecutive headings reasonable */
+h1 + h2 { margin-top: 0px }
+h2 + h3 { margin-top: 0px }
+h3 + h4 { margin-top: 0px }
+h4 + h5 { margin-top: 0px }
+h5 + h6 { margin-top: 0px }
+
+/* headings determine margins between consecutive paragraphs */
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p
+{
+    margin-top: 0;
+}
+
+/* lists below headings use the margin of headings */
+h1 + ul,
+h2 + ul,
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul,
+h1 + ol,
+h2 + ol,
+h3 + ol,
+h4 + ol,
+h5 + ol,
+h6 + ol
+{
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+/* lists below paragraphs have more indentation */
+p + ul,
+p + ol
+{
+    padding-left: 30px;
+}
+
+ul, li { padding-left: 4px }
+ul { padding-left: 20px }
+
+/* lists prefer to stick closer to paragraphs before them */ 
+p + ul, p + ol {
+    margin-top: -8px;
+}
+
+.toc-ul {
+    margin-top: 0px;
+}
+
+h1:first-of-type {
+    padding-top: 24;
+}
+
+p, li { line-height : 1.42 }
+p {
+    margin: 18px 0px 18px;
+}
+
+.numb {
+    padding-right: 12px;
+}
+
+.numb-a, .numb-a:link, .numb-a:visited, .numb-a:hover, .numb-a:active { color: #000; text-decoration: none }
+
+pre {
+    background-color : #E5E9EB;
+    font-family      : SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    padding          : 11px 17px;
+    white-space      : pre-wrap;
+}
+code {
+    background-color : #E5E9EB;
+    cursor           : text;
+    white-space      : pre-wrap;
+}
+
+li {
+    margin-bottom : .3rem;
+}
+td, th {
+    padding : 8px;
+}
+table { border-spacing: 0; }
+tr:nth-child(even) {background: #E5E9EB;}
+tr:nth-child(odd)  {background: #FFF;}
+
+/* toc */
+.toc-title { background-color: #FF0000 }
+.toc-li { list-style-type: none }
+.toc-a, .toc-a:link, .toc-a:visited, .toc-a:hover, .toc-a:active { color:#000; text-decoration: none }
+
+/* monky says: do like this: */
+h1 { font-size: 29px }
+h2 { font-size: 25px }
+h3 { font-size: 21px }
+h4 { font-size: 18px }
+h1, h2, h3, h4, h5, h6 { margin-top: 48px; margin-bottom: 18px }
+
+pre { padding: 11px 17px }
+
+h2 { letter-spacing: -0.4px }
+h3 { letter-spacing: -0.3px }
+h4 { letter-spacing: -0.2px }
+
+	</style>
+    <title>UT99 in 2020 (Checksums)</title>
+  </head>
+  <body>
+  <div id="main">
+  <h1 id="ut99-in-2020-checksums"><a class="numb-a" href="#ut99-in-2020-checksums">UT99 in 2020 (Checksums)</a></h1><p><a href="index.html">back to the guide</a></p>
+<p>Here's a listing of checksums you might find interesting.</p>
+<ul class="toc-ul">
+<li class="toc-li">
+<a class="toc-a" href="#official-patch-436"><span class="numb">1.</span>Official Patch 436</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#d3d10-video-driver"><span class="numb">2.</span>D3d10 Video Driver</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#ut99dinput"><span class="numb">3.</span>UT99Dinput</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#ut99-goty-disk1-w-patch-436"><span class="numb">4.</span>UT99 GOTY Disk1 w/ patch 436</a></li>
+<li class="toc-li">
+<a class="toc-a" href="#ut99-goty-disc-w-patch-436-applied"><span class="numb">5.</span>UT99 GOTY Disc w/ patch 436 applied</a></li>
+</ul>
+<h2 id="official-patch-436"><a class="numb-a" href="#official-patch-436"><span class="numb">1.</span>Official Patch 436</a></h2><pre><code># self-extracting-zip
+UTPatch436nodelta.exe:
+  sha256: b7935e4e7733c399386e370b8865c33eb1fd1575c0c8a3195ec5a6074ce2399c
+  size: 33766912
+
+# unzipped patch
+UTbasePatch436nodelta.exe:
+  sha256: 4331e00d0ce86b51d69b4b04bf2c7c49b3c3eefea042524909b723e4489fe4a2
+  size: 63106294
+</code></pre>
+<h2 id="d3d10-video-driver"><a class="numb-a" href="#d3d10-video-driver"><span class="numb">2.</span>D3d10 Video Driver</a></h2><pre><code>d3d10drv-v29.zip:
+    sha256: 1bd1973a477dcb4f07b07823503e083b7f519964ddeed940f9988a1334615f56
+    size: 221052
+ d3d10drv-v29-src.zip:
+    sha256: 5b747541e2adf46f08b058fc0631a669f81d7390f6fa3cea54512c8b48a64145
+    size: 504924
+</code></pre>
+<h2 id="ut99dinput"><a class="numb-a" href="#ut99dinput"><span class="numb">3.</span>UT99Dinput</a></h2><pre><code>UT99DInput-v3.zip:
+    sha256: b22961de53c3b7bbc73521d712541a2e92142d3251d8dd144401d486891e5504
+    size: 42385
+</code></pre>
+<h2 id="ut99-goty-disk1-w-patch-436"><a class="numb-a" href="#ut99-goty-disk1-w-patch-436"><span class="numb">4.</span>UT99 GOTY Disk1 w/ patch 436</a></h2><pre><code># self-extracting-zip
+UTPatch436nodelta.exe:
+  sha256: b7935e4e7733c399386e370b8865c33eb1fd1575c0c8a3195ec5a6074ce2399c
+  size: 33766912
+
+# unzipped patch
+UTbasePatch436nodelta.exe:
+  sha256: 4331e00d0ce86b51d69b4b04bf2c7c49b3c3eefea042524909b723e4489fe4a2
+  size: 63106294
+</code></pre>
+<h2 id="ut99-goty-disc-w-patch-436-applied"><a class="numb-a" href="#ut99-goty-disc-w-patch-436-applied"><span class="numb">5.</span>UT99 GOTY Disc w/ patch 436 applied</a></h2><p>A list of all files with checksums for a fresh UT99 installation of the Disc
+version according to the guide can be found
+<a href="dl/ut99-goty-updated-to-436.yml">here</a>.</p>
+<hr class="footer-sep" />
+<p class="footer">Last Updated: 2020-09-07T00:44:40+02:00</p>
+  </div>
+  </body>
+</html>

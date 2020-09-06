@@ -1,0 +1,1386 @@
+Help\BonusPackReadme.txt:
+    sha256: d3d0a9098dd32afd3170eb0bd072b3968f23565202981346720fa4a11c585aae
+    size: 6843
+Help\Heat.ico:
+    sha256: 937fae5d57fb0948df77688c682cbdb5d5e2cd2c803b4b91026b2428b0ab0c5f
+    size: 4534
+Help\Logo.bmp:
+    sha256: 33b9b7a90361328472b5c6a3f10496e52a6ea60750f228afa85015e66d81e0d4
+    size: 29288
+Help\MPlayer.ico:
+    sha256: a5f9f3dc231774e3bbc79900a05f2b66c7aaf1ecc9794d06bd7a8217719400c8
+    size: 3774
+Help\ReadMe.htm:
+    sha256: af40083db5d674dbc971d9fb0cd7bb4c4a408ee30472dbf5ff5dbb2ada10be24
+    size: 24701
+Help\ReleaseNotes.htm:
+    sha256: d8cb3718055081eb01529dc1822420d8f11551d539637cfe2daf92c469f21b3f
+    size: 45093
+Help\Splash0.bmp:
+    sha256: 31a8030d3679e324692112fdfa54cfaeffd9c5cedeef7bca28e4d1869f4e9b12
+    size: 258358
+Help\Splash1.bmp:
+    sha256: e89ca81dec572d91e603aa8a3226a154a15732060e8e27da51ceaa1085fc8bef
+    size: 258358
+Help\Splash2.bmp:
+    sha256: 07844e2d38a6e1d277a9d319029753dd4b703a429089332e867be0c3872b0ab1
+    size: 258358
+Help\Splash3.bmp:
+    sha256: a1d71f41b8c371f16da0db19bc69ab727c2629648e7d5f637b1cab7b106369af
+    size: 258358
+Help\Splash4.bmp:
+    sha256: 9780330e293e5d4d0c9b012f5ce4597364f4db71a957f2a85567501aa68c96fa
+    size: 258358
+Help\Unreal.ico:
+    sha256: 75884bd995591efe3e8ef5fd66943642418005b14f37231f78497828c5f1e652
+    size: 2238
+Help\UnrealEd.ico:
+    sha256: ab1acfbb88b25ef3c866f0875ed6ab7fdbda3252af0eb996e3c7cbaaedebf5a1
+    size: 2238
+Help\UnrealTournamentLogo.bmp:
+    sha256: 074a964d1b0b58c92124cb3991384e2a212c64062a586480415de61c1db973b1
+    size: 198198
+Help\UnrealTournamentSetupLogo.bmp:
+    sha256: 33b9b7a90361328472b5c6a3f10496e52a6ea60750f228afa85015e66d81e0d4
+    size: 29288
+Maps\AS-Frigate.unr:
+    sha256: e7da892c6fb73f81457d8c21cc784e9cda136f63c6a296615a09c133d411b7d8
+    size: 3092599
+Maps\AS-Guardia.unr:
+    sha256: 3ad2d93b82afc649bedcf5888afae755850a55038d828351301810ddfe24e112
+    size: 1983054
+Maps\AS-HiSpeed.unr:
+    sha256: 37ce4c3e46eef4f56f73e12ab0e7f9e8b24eb81905a1d762cc4bc15aef338a9b
+    size: 4418189
+Maps\AS-Mazon.unr:
+    sha256: e3dfd94c9402defcfbff620175ec5395913a1a260596865cbebd6033db1b7cf0
+    size: 2784599
+Maps\AS-OceanFloor.unr:
+    sha256: 757e3f93c44527924cafe361a5f9ceda40e9a99a7aba09b24ad59c6109578f06
+    size: 2537767
+Maps\AS-Overlord.unr:
+    sha256: 930bf30c4350ca1f71edbb6006ffc339935f942a16cd247ae315357c00fdc239
+    size: 4307489
+Maps\AS-Rook.unr:
+    sha256: 8a99b6f89a75a5ad05c6c64168b8cb51cb1c9d0e21b48f3f589a0165bd0dbd6d
+    size: 3366342
+Maps\AS-Tutorial.unr:
+    sha256: 37a892847075feae65eac92d6a4f9eb7b49bc18d6b981b12cea019ec4b00bf4e
+    size: 1801260
+Maps\CTF-Command.unr:
+    sha256: 830f43fe5a2275fb28d87be2cb2f8b553d24f2eebcb82e04c4fa980bbce5d5f4
+    size: 2964946
+Maps\CTF-Coret.unr:
+    sha256: 02a3c85bb3ba2aa36633acb4a9323ca209c04f06d6ae22c70a0f4d3869f9f1ca
+    size: 3467948
+Maps\CTF-Cybrosis][.unr:
+    sha256: 1ffc4596d067f6068df6a8371e2a41b9500f08bc49e2d72970811d1c81f27f9b
+    size: 4301888
+Maps\CTF-Darji16.unr:
+    sha256: b7574d822b69490173a00d887765ece223b6b6e4c172b43ab4534d8a49477e5d
+    size: 6778615
+Maps\CTF-Dreary.unr:
+    sha256: 555798514c0f726ae79746a276ff51b330f745bad79a53ae9a874930e02594be
+    size: 3434823
+Maps\CTF-EternalCave.unr:
+    sha256: 96a6b3851effad8d83b1f18e0cf404da13f326675819c345838f2469064712fc
+    size: 1494107
+Maps\CTF-Face.unr:
+    sha256: 24924ae6499156f986d3a2c4c7e4cb1b473cb1b7856984f818652ecbf1f3eaf5
+    size: 980156
+Maps\CTF-Face][.unr:
+    sha256: 0e0c5e086c4725e3abe80f2c974ec76e3f69ae145ab594bb937f4a531a367b32
+    size: 962312
+Maps\CTF-Gauntlet.unr:
+    sha256: faa5705bed99809615a328100f65204e9360990619d1f17131869e054ad62f4d
+    size: 1908607
+Maps\CTF-HallOfGiants.unr:
+    sha256: d312b601cf31b66048c5d2ddc1ee006a5efc9f017f4ec6662beab3e3aaf789d5
+    size: 1648699
+Maps\CTF-High.unr:
+    sha256: 957b8fff62c8566e3fdd43c35e3f39e592732a2d8d0bddfc9eaf12b12b90ef57
+    size: 3320729
+Maps\CTF-Hydro16.unr:
+    sha256: ce337c801e94b5a548bb7d53742b69755f9f45779636cbbaa460448ccf06ba00
+    size: 3363651
+Maps\CTF-Kosov.unr:
+    sha256: f915bd6bef49facf234f6a736cc1db61e1730f121c3a5f6076f4a4e9135ca08c
+    size: 2787226
+Maps\CTF-LavaGiant.unr:
+    sha256: 4eb0c71bd06b7dc4ef856d33348edda213e0366b6b35b0b50ba155c5ec33268a
+    size: 1639279
+Maps\CTF-Niven.unr:
+    sha256: 55af8429f610c37d8187f1abc06b11d0b52016d46a4cec547b1c74acbade562c
+    size: 1731243
+Maps\CTF-November.unr:
+    sha256: 03e11a2dc782f0f4d8d0e34a65b8cb3ac2074160f13f68fb43755027912cadf1
+    size: 3089743
+Maps\CTF-Noxion16.unr:
+    sha256: 0db6f09477a42ae43ad328c0713f2ffa829c577d786a8a25565dc274d8d6d86e
+    size: 3412202
+Maps\CTF-Nucleus.unr:
+    sha256: 65f449713fcfc88bd6d213b541d34aa7169afdde737c5463e8db9e4d94c1199e
+    size: 3602958
+Maps\CTF-Orbital.unr:
+    sha256: 051939accb4ed91946b1ac2ceade3d7e8acc6602b2c7a16b6311351976ac15ac
+    size: 3886842
+Maps\CTF-Tutorial.unr:
+    sha256: 7a30889aae9f0cf4c4f2bfb3f4db9e16035e6e587ac3844927e0f3cae2691d18
+    size: 913535
+Maps\CityIntro.unr:
+    sha256: ceb4162bdbb490d48e8b9238cbb8d64550628fa2fa015c1b0a03502b511a973c
+    size: 2452871
+Maps\DM-Agony.unr:
+    sha256: d2043be7afd0b9654f8727484e24fadea460b1c72016613b9bb8dad9822c91d2
+    size: 1320713
+Maps\DM-ArcaneTemple.unr:
+    sha256: afb104768d891884b3115218d8ec7dec544a55924c81b5dac0217801f3a7572e
+    size: 1692010
+Maps\DM-Barricade.unr:
+    sha256: 60a91fd6e62ca661df7c477f6a89041ac1444fedd394cdd2210108056998a0c0
+    size: 1907673
+Maps\DM-Codex.unr:
+    sha256: fb516a286318cdeab17cca6dfdf3cb8f38565b0be3806debf9e06574078e2f0f
+    size: 1603015
+Maps\DM-Conveyor.unr:
+    sha256: 81f7f4cc3714d25ad0a93946f8ae30e1104e84be9ffb4c7ad03c30ede70f94b8
+    size: 2045561
+Maps\DM-Crane.unr:
+    sha256: 43bb63fbb988379adaa9ad20c208d9c6006633b1f8223a6f86f347ef87febca5
+    size: 3590760
+Maps\DM-Curse][.unr:
+    sha256: f6bfdcfd469d7f2066b23493c3a9019c831c44acdbb96e9fd2e919a7ea9762f0
+    size: 1400391
+Maps\DM-Cybrosis][.unr:
+    sha256: 7f52a256dfd284b8d84cad4242d4c25037bbc0f90a58024fd973c4246d3f590a
+    size: 2050162
+Maps\DM-Deck16][.unr:
+    sha256: a8d2060c3bc333786fc4910f89fec77a12c11f1fc0cb8396f7f52afcbcce02f9
+    size: 866119
+Maps\DM-Fetid.unr:
+    sha256: 5299e06e018d9c485dd681be235c2fcf59cbadef79089a3ea32f7bfe73103dc3
+    size: 715711
+Maps\DM-Fractal.unr:
+    sha256: dd92310198ff54a2ad131647e83461b5fc3df6b6a44ebc0bac5737121ca95fa5
+    size: 819351
+Maps\DM-Gothic.unr:
+    sha256: 768ea9cc323d82a09fc62d5b2d57811cdf626214ce3364c735d558dbad43d802
+    size: 2779289
+Maps\DM-Grinder.unr:
+    sha256: e110d32aa612b108d5032b7072ed5dfd939c11b95828161e7a489bcf5e7e7698
+    size: 2761838
+Maps\DM-HealPod][.unr:
+    sha256: e261cfba9ed306ae6f33983e1c110bfb1c467a8bc8e8146c058d86fc31b81138
+    size: 1547877
+Maps\DM-HyperBlast.unr:
+    sha256: cace1886b7197607d61cda474882006490e6f0d99455a23d17860c2230fef25d
+    size: 1124658
+Maps\DM-KGalleon.unr:
+    sha256: 897ee0f0f9e4b170f83ebba7614f6d1db2189500d430071006f763d0edeaa16f
+    size: 3915350
+Maps\DM-Liandri.unr:
+    sha256: 04fe0f3f0bf2fb1adf849e7c15ba7c42738240bcf03192a9605772424606f0e9
+    size: 1406900
+Maps\DM-Malevolence.unr:
+    sha256: f6ef7366eb8ed826a7e66796e7991b86e28284d1a8d06ff3a927585bdb6c9062
+    size: 1092311
+Maps\DM-Mojo][.unr:
+    sha256: 9d6729a18afbbde7e5e844f92163eae44701a4cb05de6e2ddc255fbd26d73f57
+    size: 1734849
+Maps\DM-Morbias][.unr:
+    sha256: 35d00e59c25d139882c706193fdc62984d5a4aaa20c9c4fa4a3215b9e91df443
+    size: 632873
+Maps\DM-Morpheus.unr:
+    sha256: 23a151ae6fb4a6efc2d1d1eab931d8a8f1ebaf8329b5a87408f013faa94ba096
+    size: 1228123
+Maps\DM-Oblivion.unr:
+    sha256: d28969118beec6c481a9c48e13bb8cff3156ca239b8dc808ed2f5a0a1a644544
+    size: 952119
+Maps\DM-Peak.unr:
+    sha256: 6a0a8b13de4eefc8c2a68e0bd927b9a78598567be648efc6e3d4e440c2b64a29
+    size: 1531620
+Maps\DM-Phobos.unr:
+    sha256: 8d9a37536e1578e47a7fcdb0ce6c3b8aeca2078ae72c3c3bb55bd2477bf40245
+    size: 1601030
+Maps\DM-Pressure.unr:
+    sha256: f51d3c5e045a44c3f5ecc06d5803108771985adebc930e0fce1b47a15385cca7
+    size: 1310466
+Maps\DM-Pyramid.unr:
+    sha256: c687266b234da4bb8e27818c4d3d60f98ecaf0a0977c4864e16be08e4589a539
+    size: 546945
+Maps\DM-Shrapnel][.unr:
+    sha256: 24342b8cb015098a9bc6d6bce65aafdddef4a15b23cb155013b8904692aa0977
+    size: 2016362
+Maps\DM-SpaceNoxx.unr:
+    sha256: df5475babdaa1778c7e069070b086b6ffc5b4bf9b120d2a693f4b5f4cbf5da08
+    size: 510306
+Maps\DM-Stalwart.unr:
+    sha256: 5a732f516191daf286350ea96678bb50abf0a684620c45b8fdf51867c4073cb8
+    size: 929420
+Maps\DM-StalwartXL.unr:
+    sha256: f8733aada6c6f9c6c02f52e61ec9927ed17e1e04a8b4ba121d9b0334e5a40c07
+    size: 1427744
+Maps\DM-Tempest.unr:
+    sha256: 083cfe010abaa856ef36be971bddabd34c3b36a57355a295fd04250a978e656b
+    size: 2031645
+Maps\DM-Turbine.unr:
+    sha256: 681fecf7466ccd135ff7c3e544feb45a9798d045423f3954b6484ac441705c26
+    size: 1755136
+Maps\DM-Tutorial.unr:
+    sha256: 65e6ba48a2360092abcfeb9d6dc0d20c31388e16e2276b8bdee38e6d4451f864
+    size: 477701
+Maps\DM-Zeto.unr:
+    sha256: 238f87d13fb54f9ae8411c95b521676eb35e1ab096f8c8b3b6488184f2ba3442
+    size: 2958123
+Maps\DOM-Cinder.unr:
+    sha256: 48a54d212fd45b7f540e7335663c613fca5e1cce5e05ae33031f2f2b157b98ea
+    size: 1562212
+Maps\DOM-Condemned.unr:
+    sha256: ef2c781a77496a254928647edd63a70e07cc20a499a4829c2085d0a3a3b32824
+    size: 1570680
+Maps\DOM-Cryptic.unr:
+    sha256: 99615b147ab9ed8fdd8d63a3613554bb6e96078fdbf23dda1ef300b113efcf80
+    size: 1455782
+Maps\DOM-Gearbolt.unr:
+    sha256: e89a5e4271307fa30d58e2b6a07f2ec9d14c034fd6cb80cc9091502eeb4d683a
+    size: 1147351
+Maps\DOM-Ghardhen.unr:
+    sha256: f94465e3e3964afc2a526956b9a9af082c994a57207c80038544330667e323d3
+    size: 1288019
+Maps\DOM-Lament.unr:
+    sha256: 6723e0b28af3fec69361910673b95a285ef1a62fa3033e219b708b31216b0b33
+    size: 739165
+Maps\DOM-Leadworks.unr:
+    sha256: 550634baf2c7fcb8ed3e3dbd06a04616255b6116e97bbe8b565807ab6324be15
+    size: 2839708
+Maps\DOM-MetalDream.unr:
+    sha256: 594054990167da5b76fe5e08f3806803c3f141554281a95c98f221d03ce7e648
+    size: 1659419
+Maps\DOM-Olden.unr:
+    sha256: 229190d4aee5a9c7e68bbd2abec868008da14f7c6c9d7e15e75ec0f594f5cd16
+    size: 1514411
+Maps\DOM-Sesmar.unr:
+    sha256: 1d23e140a0b0da302b68a216cba4b51824aa4b82ac959f61b64983d3758bb98e
+    size: 2155460
+Maps\DOM-Tutorial.unr:
+    sha256: 1a77ad6fbb67f0e7c21615b59c2ec471835d7e216fe4d8015eb01cfd8b16e8d6
+    size: 591753
+Maps\EOL_Assault.unr:
+    sha256: 7f5caeb7d3ef0557e72919b5bef74e62b6e1caa8163b569826efe917e9a3e951
+    size: 611660
+Maps\EOL_CTF.unr:
+    sha256: 06df528cfe8c9f7a3d24edc907d143bea7deb0f9f96077333f9492cf238f404c
+    size: 587850
+Maps\EOL_Challenge.unr:
+    sha256: c3f352d6529d801a2c6666d237b2eec2dd92c3dfc550e97b88644fa9de087ad6
+    size: 587854
+Maps\EOL_Deathmatch.unr:
+    sha256: 00ccad208ad728bf5e290bbfe0a8dac4f02dae79995ef907e3d23a8cb1f2926c
+    size: 587836
+Maps\EOL_Domination.unr:
+    sha256: bb3a73599f6c8e59df145874b9e113957bcb146a94f0166ab84c7a41bca2a1f8
+    size: 587853
+Maps\EOL_Statues.unr:
+    sha256: 7293c4f8d05b940142753056ef08441e822440636a6e077a44e2a3fd0a09927e
+    size: 513449
+Maps\Entry.unr:
+    sha256: 4bd31b4af4195d257d4b100026c12c7ad511b000f3bc8653e4a34a30fbbf689c
+    size: 11617
+Maps\UT-Logo-Map.unr:
+    sha256: 36b17abc5e3d1f0b246c870ec780436585817e1353da25bd0f6570e345d22e82
+    size: 11729
+Maps\UTCredits.unr:
+    sha256: 049b09b7c1830fd91bdd48cab7a3c71411b69d04d9218b4eeb6dda3eadefe2d4
+    size: 50284
+Music\Botmca9.umx:
+    sha256: e86ab8d157592fe9ffc178f2c4a5ae879606c8854685022e19ac1b6ee6373e2d
+    size: 1208303
+Music\Botpck10.umx:
+    sha256: 27e6c249d7a3caa5060a139b708f9ee2f42ae59893e6e99ff0f71c5f21976919
+    size: 1514831
+Music\Cannon.umx:
+    sha256: 0c3c2574ea361c47ee5e9464baf8b999a4828602c18abb8abe395db1e8b0b67b
+    size: 1784008
+Music\Colossus.umx:
+    sha256: 6ad36d6ecaa0f72051e77f8e98d293a4f9be88ecd85af55bf40c53c70a167fdb
+    size: 1323781
+Music\Course.umx:
+    sha256: 171ea8741a632eee6e09cfcffa5a2b138bde11d9ec2ed7b4796a4b95da1226ef
+    size: 1832615
+Music\Credits.umx:
+    sha256: 1aa234410e5f36f9e89dd81ccee0a692578aebd8f093c31ba1c04fbe8ec18c26
+    size: 3168300
+Music\Ending.umx:
+    sha256: 095a75b164a4183c9ce0aea2407a0981d1e1e619ef52243c519a3c70e9eaf1b6
+    size: 2121378
+Music\Enigma.umx:
+    sha256: 3900e0b930b5cffd82650e307fb4faeab87f6117c3e7cc633478368e88f01a51
+    size: 2010616
+Music\Foregone.umx:
+    sha256: 941da8ddc9a8b394f4b76a58b01e4d1107669cf6fb455efdfc7fa10ff7d5d2ff
+    size: 1992753
+Music\Godown.umx:
+    sha256: e936c2bfad2c3239d5efc07af21e08e41ada09aeade6f04584e1019787329a51
+    size: 2044027
+Music\Lock.umx:
+    sha256: d68348722f9845a62bd7d21974c74b44a55387c28587332421ae97edf1591eb0
+    size: 1668932
+Music\Mech8.umx:
+    sha256: 7cbad8eedc884482f41fdc883ca96da9a423e694826e84b05df9fef87755e79a
+    size: 747774
+Music\Mission.umx:
+    sha256: 10839051ef41ea0145823243e00f3b1016df2a3ddc67d81a7716817158a16a95
+    size: 734957
+Music\Nether.umx:
+    sha256: 99f52b2f8619880eefd3a425b05510af28c391b57990fa4bcb56f55c0e70dc1b
+    size: 1312916
+Music\Organic.umx:
+    sha256: c4ce7b1f40b3548dfa634541bd16da5ab10da38b096826ed85ca12c97a1c1044
+    size: 1287910
+Music\Phantom.umx:
+    sha256: 2137afc872db145ee246fec2dea43797a2c850b53da6701e6c7ae604d2552835
+    size: 819883
+Music\Razor-ub.umx:
+    sha256: 61f3441b7f0ef9b0d6ff69aeae331b495b9c2750e2558d8de6317937c552960c
+    size: 1088470
+Music\Run.umx:
+    sha256: db0be24bbb30aadbe5d456088b507d7e0e4b1544c811965ef45ab4527530e2b4
+    size: 1707015
+Music\SaveMe.umx:
+    sha256: ea1303f45ce5b2ae4802ca4a5ef3e149ebcc637b0cd9c2c9a79ee36b0b9ebcd2
+    size: 1690127
+Music\Savemeg.umx:
+    sha256: ec048d367cc408bbfd015c867b573b1b8f3637a9414eac4ac3065e52f59cee7c
+    size: 1690151
+Music\Seeker.umx:
+    sha256: a22dc86f0fdcbc865f965cd38c29895dbb680cc35888abfc124109679801e761
+    size: 1539259
+Music\Seeker2.umx:
+    sha256: d8f17f95afb365dda030a308fac9f6987c7bd73b17776c4f428f82fc58a32e25
+    size: 1848082
+Music\Skyward.umx:
+    sha256: 6e1f17a7ee6453026c650cde7631bd8fc4f045954161afa3f0abe0b6c5ad491e
+    size: 1004122
+Music\Strider.umx:
+    sha256: e481d310209fab8257b21feda28a578474ad441bf823e4cda938cef66d16f2a8
+    size: 1658023
+Music\Suprfist.umx:
+    sha256: 5cf3f3ab492f5dc6ff4b1e45982835a6b6ef6762d011279a2b27bfd63eb444aa
+    size: 1973180
+Music\UnWorld2.umx:
+    sha256: f15ca2ab5a535361851e4b3d7dbec8d69936854ca5e2be8748dcb194dc89eb0d
+    size: 1844439
+Music\Uttitle.umx:
+    sha256: 4f0ab8f7f6cee7c51bfa80e24313fef235517afc50b10927e00792baa88663c5
+    size: 2868444
+Music\Wheels.umx:
+    sha256: 98700b12bd06047e2be4dc8d598c6a2f3dc407b06014bd905b871950955730e3
+    size: 1852243
+Music\firebr.umx:
+    sha256: 3535183159be6eda9e050f5ba5badca6ae3eb6cae3675e0079a5b76e3ac16df4
+    size: 1914284
+Music\utmenu23.umx:
+    sha256: 81f5db4632c714d2e9c2de221b1993aa488bcdd6859988f1fe56d683dfb9182a
+    size: 1214902
+Sounds\Activates.uax:
+    sha256: cd4b55d4b15337bcad84049969826d1a299c698fe03f911060208bb6d3dac25d
+    size: 906293
+Sounds\Addon1.uax:
+    sha256: d65a98786913315cfbd154bd7d1280d29a1bbfea2ed7cf5f7ce6a27a8d5326cf
+    size: 366282
+Sounds\AmbAncient.uax:
+    sha256: 02d814dab708854ad72d27f5e52df5df6c8094a00102fee69511c4a363f974e5
+    size: 6773021
+Sounds\AmbCity.uax:
+    sha256: 200f2cf9fc8e2369d461e786d1f11206f32e156dd438cb8ad17ea9d24b75931b
+    size: 643667
+Sounds\AmbModern.uax:
+    sha256: 41f0f269dc9c53695cf721a668a8b2aa0344204cfd95db47ffbed2b99fa3ff08
+    size: 6112404
+Sounds\AmbOutside.uax:
+    sha256: 691c3a23836e239d94f6d6c438ab311066b76b46f7de4bac0b36d411e28cb653
+    size: 5469933
+Sounds\Announcer.uax:
+    sha256: 62f66e0a594362e1037ebabdf3969aefbf094bd99d8a50bd77ea2cae4599dc58
+    size: 1416927
+Sounds\BossVoice.uax:
+    sha256: f89f692a6124fdd84aab3938b4e2dd363c40318ae5a9a0d6612bb8e3977e89f5
+    size: 859670
+Sounds\DDay.uax:
+    sha256: 738bc3a0ff86aa8b13224d45f0b570686386ed45822d8f78e863fa8e85f143fd
+    size: 1534753
+Sounds\DMatch.uax:
+    sha256: e0e5ef3ceeaf169f790fb696ce49dcfc97df5b17d9de0e2b67f8108878186c3b
+    size: 177443
+Sounds\DoorsAnc.uax:
+    sha256: 73c459649cf167008f3e5096dc8d185af4e99de797c8e320c87f081fcb10c742
+    size: 3740119
+Sounds\DoorsMod.uax:
+    sha256: 4cb08ed49d3ff8ef156de83e9dde3626488543e58cb3697b301bca178f13848f
+    size: 2547363
+Sounds\Extro.uax:
+    sha256: dd6718f622cd6275efc682b65fa88a5da67e8d6fd2cb5d8a5cbf1e57d903f75e
+    size: 2871719
+Sounds\Female1Voice.uax:
+    sha256: 4940ebe2fedef45f5cd09bfec2daad2a3a875ab17787ed566116e582b84acbb1
+    size: 818431
+Sounds\Female2Voice.uax:
+    sha256: 05a9f328efa49b69328f4cd1c92e0f5a80e67010513f83363c054bc35e2d5d90
+    size: 774932
+Sounds\FemaleSounds.uax:
+    sha256: 453e1e537c0714dc3d876352029ad2375ef0f03368a509be3cd232e190e11ce9
+    size: 583567
+Sounds\LadderSounds.uax:
+    sha256: 3b8ec7fc7f6572665470b6a8331e2bf5c867068365251cd86ed942544126b84f
+    size: 247341
+Sounds\Male1Voice.uax:
+    sha256: 11b79e4b376ee10f2f4dc01234f2cd8d1134fe7f0678614da7285631f044647b
+    size: 762855
+Sounds\Male2Voice.uax:
+    sha256: 969a85ff0d653983353e190ea7a8cd16abfb5425f45f281bea6cc27e888ac1f6
+    size: 701131
+Sounds\MaleSounds.uax:
+    sha256: 1cd6cf6d3d7f8a4a39dec1e5ffe8b69d412e9a66de4b7f2635e7b128b119aebf
+    size: 597918
+Sounds\Pan1.uax:
+    sha256: db604ed80171607437e521723d7d82a3d3cb49ededaa8d322043c46b6346c83f
+    size: 2616147
+Sounds\TutVoiceAS.uax:
+    sha256: 331592c68029cc6af490aee48d551a46198e44127ca812b419b8cc88ce1f012c
+    size: 2773514
+Sounds\TutVoiceCTF.uax:
+    sha256: 47df4e25060d695746e12f5ce2d7320032b0644ed90c466faa374e6a198e67ef
+    size: 4561450
+Sounds\TutVoiceDM.uax:
+    sha256: 749a498d7508119cb68a22ef1f409fab1b6e99995735ce41c55aed8f3500bdea
+    size: 4973674
+Sounds\TutVoiceDOM.uax:
+    sha256: 4a44b8333652fde91648d9ab7a4d405884de4ead7d5f3d89b101feafe6684fd9
+    size: 3485968
+Sounds\VRikers.uax:
+    sha256: cdb06478f644c2c5b771008f87cdc1955c080ccb60922ce8342e0fd2a2876f3c
+    size: 819220
+Sounds\noxxsnd.uax:
+    sha256: 7830a6cc58216d2a3edcf68c88357363d6329f623573ef4ea569d9a94f1e1bf1
+    size: 806029
+Sounds\openingwave.uax:
+    sha256: 8092f8d4c3e3d7a1e14e6de0632c9fe28a20768e6920e0427923c7f9000f2809
+    size: 1492781
+Sounds\rain.uax:
+    sha256: 533c8e8a95a1309344a8cc248194600212c4f8f1a8ee4341ea05d35cc0c95a8e
+    size: 313668
+System\BossSkins.int:
+    sha256: 584d7ff290e6b1d612ed91f669425843ea260c5030c12d0e0a1204d4d485a357
+    size: 1085
+System\BotPack.u:
+    sha256: 9e21d633254b9bb6fb263cf6d620b81e680e63dc2da0922cab61432d00a6c5ae
+    size: 39016791
+System\Botpack.int:
+    sha256: 1d3ba5c53b90c2299b265f53a8ac70b48244d5108c77bab33d9034b38472278b
+    size: 6721
+System\CommandoSkins.int:
+    sha256: a28600459aa6b37b385846476ecfe04a8f253b33f0030097586c1bca22585148
+    size: 3465
+System\Core.dll:
+    sha256: d2b5d2bdf3061b255c0a28d7302cc152079ccbe74ab2c447966f216b1b9ce361
+    size: 786432
+System\Core.int:
+    sha256: 3d5b6135e012dcc8a72e97ed45b9aa84defaed0fc0364a318400c61382d60de9
+    size: 3282
+System\Core.u:
+    sha256: 1357ee2d42f27e505358e824086144431bd6337ea61a4572ab67df712509fd4b
+    size: 59233
+System\D3DDrv.dll:
+    sha256: 151cc77d72760d2b1826a9fb9aeed9df734942fb3c2574298ce7bd41cc0b7baa
+    size: 217088
+System\D3DDrv.int:
+    sha256: f1472e84479d5fc86ad3efe2d7f9e822494da193d0706172626e482cabeecbb6
+    size: 374
+System\DefUser.ini:
+    sha256: 226570efd00748d6cf812dcc2a4cb8776ee8737a95da730948e07058ca24e89f
+    size: 10103
+System\Default.ini:
+    sha256: 4d4544bc6b85e45507811dc72f915e0af4b317bd41088b1cfb85d078cc3991d6
+    size: 11544
+System\Editor.dll:
+    sha256: 8671fff6c37cce49ff8e0aa4a5a6093159241f222985364eb87d74d587d1c9f4
+    size: 1257472
+System\Editor.int:
+    sha256: c44a951fcdf2b93b9653b5e1bb540d85e1b9500de7af6bc8286f7a0dc430f8c4
+    size: 4618
+System\Editor.u:
+    sha256: f00dbb378b0a346b9969cf09d8ab2c1fa8cd8bc6e1faed0eb3122332b6422671
+    size: 126142
+System\Engine.dll:
+    sha256: f86baf7d19f09fdba21356023ad554fb3785a88a5579d7086710fb5c2841910d
+    size: 1789952
+System\Engine.int:
+    sha256: 057b2fd34d184b1e68ad515d80b30e46042468e6615760c001a894bf34cff48d
+    size: 5455
+System\Engine.u:
+    sha256: d587eef81ee76dc6dec492c3e8908e6a8d927927259fd49fc63d278027964c11
+    size: 1149858
+System\FCommandoSkins.int:
+    sha256: 797a3ec99b5ef92dc042fe9faeaf4f698ac28af597baa9efe0776cda4b2776da
+    size: 4199
+System\Fire.dll:
+    sha256: e6c4ed309d7d955a435cabdcdca009106ad7379bcbc3b1167ecd5705f6c18520
+    size: 106496
+System\Fire.u:
+    sha256: 9f5ed0bf586a08190adfe00b9aa7a9d3c396f8b3bd905e059dacf887309068f6
+    size: 15248
+System\Galaxy.dll:
+    sha256: 14a825b8b5b5d7d4f5827cd0cbec1ea8c92a39566a2a29edeaa1432a6d67bb17
+    size: 339968
+System\Galaxy.int:
+    sha256: 3b1ede84365c5412a8d68730c47d479f00a959b3e3e966fb48a291c1c5de51c9
+    size: 273
+System\GlideDrv.dll:
+    sha256: 8a4bc13dc9a6ad861d7a97616b0c1d127b8de3de3748987dfc2f6f6746ec3101
+    size: 81920
+System\GlideDrv.int:
+    sha256: 154e91d840eb83ea6666f7e0de77214f5aeb74da76ebd8a8ced0b296fe502e88
+    size: 450
+System\GlobalStatsWeb.url:
+    sha256: b40dedf12c72c6483261a8119955119ae7534ec9a33d3e7414f7695d3251a932
+    size: 51
+System\GotoHeat.exe:
+    sha256: 59f433dd969f2d175aa0aad06b608eff4548e4b9412bcbd8867d6a1ea188bee8
+    size: 60928
+System\IpDrv.dll:
+    sha256: 7e98d39539969bac5ca9de519f3a4f1f2b725f4faa1b42cf448de7027e4ae66a
+    size: 233472
+System\IpDrv.int:
+    sha256: fb3387b5a1eba8f0af61f23b3aee40549b5169e4a933f766c87e1bdc64d601b0
+    size: 1792
+System\IpDrv.u:
+    sha256: 07619a396ccd48a396fa35d5ebd5aebc383da21cb1a1f00a707b771332150150
+    size: 20286
+System\IpServer.int:
+    sha256: ee3ae6a5e272926ce3837e994278db064f6c9c9cad34f8e8aaeffe026d38e6fb
+    size: 301
+System\IpServer.u:
+    sha256: 2975045218d7e2a916d3c08db3943ee335c45fe94eff5ea477c9b36a0cd78d06
+    size: 32162
+System\MSVCRT.dll:
+    sha256: e390b0529fb9ee1214bb68302a4658b578134d92ab76bc5eb48f3badd843d210
+    size: 277776
+System\Manifest.ini:
+    sha256: 303fa3052d2d9060647e29562db072aca63219ab1fd47bb1169fdc3aa73a96bc
+    size: 32231
+System\MeTaLDrv.dll:
+    sha256: 8250c92fd6d656ba95ad27c1280241f515f04fd28ebd6fb0d38ca84bfebb5ea1
+    size: 57344
+System\MeTaLDrv.int:
+    sha256: 5c971fc97f10c75e5bfdc8a9354ce626609685e84b9f2ccd9fb1e8426bf6cd26
+    size: 454
+System\NetGamesUsaWeb.url:
+    sha256: 515b945c50113ba61e6bb3a1780be32a83194c4f6042b98b31dd69e642cac368
+    size: 51
+System\OpenGlDrv.dll:
+    sha256: dffb89788a6deb740db24ef54b73b4d3300f82ba39d209a9ab2ff14c87faf0cd
+    size: 102400
+System\OpenGlDrv.ini:
+    sha256: 881d3a4762daae6360be9198f29bcf1dd7bab801851fe7997a643291d89c2d81
+    size: 1160
+System\OpenGlDrv.int:
+    sha256: 8d0803823e9055ba4e1e8e64753c997da0758d6432094c76efc0d8425bf6f101
+    size: 595
+System\Render.dll:
+    sha256: d15ae59fb1f96565594b10c34c7ab0683b9a7d8d1b199d85ba875f8391065285
+    size: 237568
+System\RunServer.bat:
+    sha256: ca55c4707584eb86830b9e21938908fd981b3433caeb2d5fd02b9e99b35be258
+    size: 113
+System\SGLDrv.dll:
+    sha256: 27bc06376b637cc8b44d599d08702a957c90d5fa60207ddb55a898cdb2060849
+    size: 94208
+System\SGLDrv.int:
+    sha256: f3d9e10ce9a0579566198527b02d64cb7df8d044c12df3868c545a568c1015e5
+    size: 450
+System\SGirlSkins.int:
+    sha256: a9d124def284043f71e4a1eeaab59cff3893146cd195dc98a97a1ff49acb6c8c
+    size: 5565
+System\Setup.exe:
+    sha256: bb2611195d7fb41bc7c7e78b94f5aa966d1e3c1a014f4a6cc6a328eba4458640
+    size: 311296
+System\Setup.int:
+    sha256: cc05884406c9f349054d6c44e7408b949f92e54ddd3bd3364301965c278f1d92
+    size: 7236
+System\SoftDrv.dll:
+    sha256: 6a48c819f50be56ef1f32daf1418ab3eddf94d5b36a69bfd5202b67c66f748e5
+    size: 389120
+System\SoftDrv.int:
+    sha256: 0bc6a91285ecb27c06dc1c1289f05e305304224694730ad7274fccb4a666040d
+    size: 329
+System\SoldierSkins.int:
+    sha256: eb3e79cdc98b7345c690a0f75b4fd6295459cc59bc90c7464b0c8142066b4463
+    size: 5578
+System\Startup.int:
+    sha256: 8d9f15825a83a993fdd37f93ad81471a341e5b98999c1ac0499a9c13d9db5aac
+    size: 4331
+System\UBrowser.int:
+    sha256: 14ccd80897dcd8337369c3679eb0bc58f0409497a85c752c112d4b3fe8fe689e
+    size: 331
+System\UBrowser.u:
+    sha256: 006d5f25eb6b8dc87cc5d0276397fa8bd1b867e1eb7493a862b7fdf4a2117cba
+    size: 329791
+System\UCC.exe:
+    sha256: c4464018201563133a1891ed5287fb701a60e785b576363780588610b4d91f49
+    size: 110592
+System\UMenu.int:
+    sha256: fdb8cd466a4bd78724c801f3b8d02b5a2e166ca8e0a5d3f32f2ee847fe96f26c
+    size: 335
+System\UMenu.u:
+    sha256: 4bf87b70ab0c4e956f8b999b6d62d9b400c215ee5bb397a4c5cb119982a7ccb4
+    size: 1904411
+System\UTBrowser.u:
+    sha256: fb34614abddd5a26e70389049e7ace9d1fee0c05e4358e9783edbd9871636e84
+    size: 13869
+System\UTMenu.int:
+    sha256: 85b4e9c421d7acbf2ce44fa926aadd32a4adae3b43bbca7630985ca0987b3eea
+    size: 559
+System\UTMenu.u:
+    sha256: 2a25c8cc42968f19ab20771321f45800ed91c4f30c7efe2606b664ae609b2aa9
+    size: 4723957
+System\UTServerAdmin.int:
+    sha256: 5c6833d053b6f3ee1b1c524732e98a593828e7e767d9d01ece977394a5c58984
+    size: 188
+System\UTServerAdmin.u:
+    sha256: f1d7712ebd97f9fd888f2e6dc7039f895adda3045e7958c74bfcda48f9a57287
+    size: 105371
+System\UWeb.dll:
+    sha256: 4ffc178422766fe56aac314a14447836d16e2723d32e2664c5c67891993596ba
+    size: 45056
+System\UWeb.int:
+    sha256: 7bac44475f6e958be83d66872e415038ee329a4d2299cc882ca6ee568d366b1d
+    size: 131
+System\UWeb.u:
+    sha256: 2894fed3aa57d27f8c6d4150a8e5afae2cd1d310446f81d6f411ce4762a51362
+    size: 28410
+System\UWindow.u:
+    sha256: dc80f17fa6ac8d3515ef1b597ab12eef6e05ec671248325b293e633be3a17883
+    size: 650618
+System\UnrealEd.exe:
+    sha256: 9284e9441c88e539e6c7a5567c4eb160f4afd7ba41419380ee4126cef49dc988
+    size: 1380352
+System\UnrealEd.ini:
+    sha256: 56410ac72fb186f815eab3cfccc2338b00690b7d0c9558d853a1496bc7eb2422
+    size: 1737
+System\UnrealEd.int:
+    sha256: a8c487557da4d558cb1f54924afac336cf1105f407268c6f8faaab221bd93e6f
+    size: 38
+System\UnrealI.int:
+    sha256: af5c9cdf23816de5af6d2004580e70065b7c1bca7b7b796cf476c9e73f1d7398
+    size: 28726
+System\UnrealI.u:
+    sha256: 6aa7d8af348f83981caf5a2a0a7a2073edbae9776aad0625b70d67424546580c
+    size: 18549361
+System\UnrealShare.int:
+    sha256: 78da504474ba2686b1d2746f47b69e10180c15e5f91b5297e20b9f47fa880982
+    size: 24410
+System\UnrealShare.u:
+    sha256: d75a7a5a4dbdcbcbfc363eadae810f99dfc4030c203032ed2dc88d255811155d
+    size: 22124694
+System\UnrealTournament.exe:
+    sha256: b8fc48eeb869a65762179f787bd68a609dae1e41306051e3ddbab7fcb890e959
+    size: 241664
+System\UnrealTournament.ini:
+    sha256: 4d4544bc6b85e45507811dc72f915e0af4b317bd41088b1cfb85d078cc3991d6
+    size: 11544
+System\UnrealTournament.int:
+    sha256: 5428c2b66ac1c7256ec825db5b298f5ffbeec756e9a373ae0f678464af1e1845
+    size: 139
+System\UnrealTournamentWeb.url:
+    sha256: 959252e41237bdebbdf23ef79ee3a5d25b53ddc35b644b8c9874805f85e72bcb
+    size: 56
+System\User.ini:
+    sha256: 20e1a62de8b1d078b25e63d8554753d2e6ab42d3d0d4696b1b55fbcf6fe9625b
+    size: 10053
+System\WinDrv.dll:
+    sha256: 48073734c2a106057b960ec65f54fe05b387b486720779ebf30ae50c562db485
+    size: 122880
+System\WinDrv.int:
+    sha256: 2817d1521d5bb9fa833f7e1a8d8c91263dd61373d3011b6ba8778c4696161aa3
+    size: 681
+System\Window.dll:
+    sha256: f53f6605a25060e4100e7968264fbed0484dc88193cbbc033a6654c6fd09832f
+    size: 483328
+System\Window.int:
+    sha256: 112e53e265574ec85e7d2717fbaf9618b1b105aafae81479929e639decff2898
+    size: 2091
+System\de.int:
+    sha256: 1e6f2034379c673d6e30637066b41d065fba3147ee1f5d6b5e7cde9014e2db47
+    size: 393
+System\de.u:
+    sha256: 335e2298c977e4a513d2d1bc76007e0c1a17bdeff5b1a54bee13cd814168d616
+    size: 72169
+System\editorres\AddMover.bmp:
+    sha256: 2ffa4aabc5e8b5c5995220b2b27c9a1444db3cff08d22dd0561bb0732e6f188f
+    size: 2816
+System\editorres\AddSpecial.bmp:
+    sha256: de4946f40191e183bef211e385057cd426e8581f6c19740576b7b3f3c8a18894
+    size: 2816
+System\editorres\BBCone.bmp:
+    sha256: 4bcf80cfbd8e373dd8f259221fc27bf8c81bd113193325385f7ff709b48bb6ab
+    size: 2816
+System\editorres\BBCube.bmp:
+    sha256: d05d178bc86139a67a15b50a3b0bf4143279ea7e44f6afecef5a00081f423c33
+    size: 2816
+System\editorres\BBCurvedStair.bmp:
+    sha256: 70738dcd1597b6589b71866e74a4d30dc887947f8e300e1ae89337d18e0a1f6d
+    size: 2816
+System\editorres\BBCylinder.bmp:
+    sha256: 703a258581dbfe5d613126a508020687a7bb09671b86dadfe507746bb63888e2
+    size: 2816
+System\editorres\BBGeneric.bmp:
+    sha256: 6a9398f72e37d4f036af3b8d4622bef50212d0b9e39bdc60c4ba39304c20dc7d
+    size: 2038
+System\editorres\BBLinearStair.bmp:
+    sha256: cf04ae857fff24772c55c680c7e66f3768724e915e1b2ad6fb388a56aa5c75dc
+    size: 2816
+System\editorres\BBSheet.bmp:
+    sha256: 07f5667710a17fb9d40dfcc6c66590dd3c2ecbbc0d8645e29c2d9022d0d72bf0
+    size: 2816
+System\editorres\BBSphere.bmp:
+    sha256: d8a199aacef1fb43d59557877b9cc033fcfe3a54638d41d7af104646128d62c4
+    size: 2816
+System\editorres\BBSpiralStair.bmp:
+    sha256: 5e5a8bdb2abcb99b0686bfd91f8891f67119a65500bf21c0ba8f82c6d73b4d8d
+    size: 2816
+System\editorres\BBTerrain.bmp:
+    sha256: eddedb27751690c40a0dbbd0a3b63495f528e4cdf6816f351af7989f5d816b19
+    size: 2816
+System\editorres\BBVolumetric.bmp:
+    sha256: 3e03bdfea8239622008567ec0a63a49895257e06fd8b69c4637236b34c3e8adb
+    size: 2814
+System\editorres\BrushClip.bmp:
+    sha256: ec07a1817a7ddc22056b7c419cd3c104f62a8efb603a3a8a265f1f2ff1db6ecf
+    size: 2816
+System\editorres\BrushClipDelete.bmp:
+    sha256: 12db56964844f3947730a57fbb1fecacc3ebdcfbd5797a9ee34063d21dc88a79
+    size: 2816
+System\editorres\BrushClipFlip.bmp:
+    sha256: 32864408d3011980c6cc7824d6128edbe7d313e46f4b5b7f61b1d35f1ff06886
+    size: 2816
+System\editorres\BrushClipSplit.bmp:
+    sha256: 2d21611e3b5df7edeb1818620f62fcaa4ab7d28f9a4303cd9656790a35600717
+    size: 2816
+System\editorres\HideSelected.bmp:
+    sha256: 6eae6762058905139abdd68d62be098ccc8c95aa1ec26237c5e54f7354440f23
+    size: 2816
+System\editorres\InvertSelections.bmp:
+    sha256: 64e6bb7cd288a31e8aa3cceeb42f1d512bd9919e5e0ee20b26afe6db035772a8
+    size: 2816
+System\editorres\ModeAdd.bmp:
+    sha256: 434039c2b1fc7fb1eaf0750f1646de56cdf6776c0b76b40005d22cec8f2b9a7d
+    size: 2816
+System\editorres\ModeBrushClip.bmp:
+    sha256: 940649d27bb93aae3aa468e142e7fbcd1e5f56a99e80eadb7b399fedca648e89
+    size: 2814
+System\editorres\ModeCamera.bmp:
+    sha256: 20a33df3c8ba7688910043790edd6f75d920fe3ca04c412fa5a9800a66c78887
+    size: 2816
+System\editorres\ModeDeintersect.bmp:
+    sha256: fd5d26bd2955660b6dbb5b6874418a5816cce298e28d0f5649834ee6337b94c9
+    size: 2816
+System\editorres\ModeFaceDrag.bmp:
+    sha256: ceaaa12b9310f7d9789f5e6df2007e7f9d58055e4b6ff946e8f197d19184581a
+    size: 2814
+System\editorres\ModeIntersect.bmp:
+    sha256: be5a848841b885ede2ae62d15c5c8c5bffbf98aedfeadd6f157eeafd71437206
+    size: 2816
+System\editorres\ModeRotate.bmp:
+    sha256: 98c410153cb8f0429a7509d2dee232736df51ada45f8ae01a96a09e8d61a4a78
+    size: 2816
+System\editorres\ModeScale.bmp:
+    sha256: dcc16f69c65e6d1be3b2d351ec59db344e5e6b080d1bb033a70ff32e500f7d19
+    size: 2816
+System\editorres\ModeSubtract.bmp:
+    sha256: ceeadd2fb1275320478a93f6ac1c04eeb79fc8465ed9af45548ea8bdf17cb40b
+    size: 2816
+System\editorres\ModeVertex.bmp:
+    sha256: 998eea2c9f0e5f3000f1506d8f52617ecd55111070f96a242959aa8622d389c3
+    size: 2816
+System\editorres\ShowAll.bmp:
+    sha256: 11b10a58b953181c8ecc6aaa153226825deaedcd2708488c308b36410a0acc83
+    size: 2816
+System\editorres\ShowSelected.bmp:
+    sha256: de41413d6998c46574eb3135be1d967adedf90a1e4c93695cda96504c026ed83
+    size: 2816
+System\editorres\TexturePan.bmp:
+    sha256: 3e7846bda938c12be7ab184afe3c1e545dd2c469a521998c71f2df85ee53f7b9
+    size: 2816
+System\editorres\TextureRotate.bmp:
+    sha256: cc8c66c13173cddd8e2b1f9ed8e35a42bf7b87a5d2fc327934b0394f37532775
+    size: 2816
+System\editorres\vssver.scc:
+    sha256: 41aaa79df251d7a308e0d43cd2bbd4cf1c4c8a49980fce76c527f33e1f99ebf3
+    size: 640
+System\edsplash.bmp:
+    sha256: f7e409ec56560164cd0356b09b0c2e26023889d255c43df427c7a80db157dbb9
+    size: 279480
+System\epiccustommodels.u:
+    sha256: debb0ece16ef8ad33d48a59cda7a3a1ab9b173b2cdf261e4a158683c484842a9
+    size: 2408852
+System\mplaynow.exe:
+    sha256: ae9577e276413b5635194521417f01919b799f33b287bcbaaa458ed99baada00
+    size: 273408
+System\mplaynow.ini:
+    sha256: 9eda55a8095de1edfb9a515d7e2ac1e9b72e80c50d9f698d1628c900ce298f36
+    size: 232
+System\mput.mpi:
+    sha256: 357ba93b7531f7e2b979806315d0eaedf4e61b7ee959d5ba735110169ea147bb
+    size: 1620
+System\multimesh.int:
+    sha256: bef6b28582eb7364979bd38d8771c9871d8c1138e7df40dd90e9d43e0e072b98
+    size: 1220
+System\multimesh.u:
+    sha256: c8f62af24c1e40e99b2b784d368645245522969951fb4157349ca946643421e0
+    size: 76545
+System\relics.int:
+    sha256: 2f013f8fd243824954b93f1293f48df33dd7b2f4b3ba0738b397530db3ec8419
+    size: 1000
+System\relics.u:
+    sha256: 1a39a4785ff69cb4fccf024d9a10cd572e98b49027a7f4bb85520dcae6c7426d
+    size: 455370
+System\relicsbindings.int:
+    sha256: 5643d577008c5e42e12b2c8976f1bb10405b21af8fefa66677bd3b0fa5954d95
+    size: 108
+System\relicsbindings.u:
+    sha256: 2b7f9cb5232956b433f072a5a76ddf47a46ac991c69cd01b3a2260248b684ef0
+    size: 582
+System\tcowmeshskins.int:
+    sha256: 50d92536a31a0dbb95b9bcc5f243a419403ad766012e1463d5213fc2cdbe5ce1
+    size: 362
+System\tnalimeshskins.int:
+    sha256: 480122d04dab5fbd8b154881470ec6f34bddc7dc7a3b073c57c7383df0ee63ff
+    size: 370
+System\tskmskins.int:
+    sha256: fbbdfb210b69b414cdcb9c47125add66c2eec0db9bf57fa6f6cb4bded3f3006a
+    size: 2823
+Textures\AlfaFX.utx:
+    sha256: 50edfe60fcf99c61f369cf8100079351bd75eb0a23febc77aa891142086dbbc0
+    size: 7980
+Textures\Ancient.utx:
+    sha256: f63d41a054362d0a8f2a80b0d97248331b170b7621afc95de84628d4d5941963
+    size: 10170681
+Textures\ArenaTex.utx:
+    sha256: 5513d952707663f07dc97299edac8aa1f1a80294524be5174e640f52bf8d2d6a
+    size: 723626
+Textures\Belt_fx.utx:
+    sha256: 9cc2de6f20078ace202b3fbe1f28e3c1dee0232b4228a774494a41e8e822b1d8
+    size: 400259
+Textures\BluffFX.utx:
+    sha256: 64b00fb7b543b02a5f9326e38ccb57d96e695a1ce19432b0b255b4113d355fe8
+    size: 1774
+Textures\BossSkins.utx:
+    sha256: 6f976a43f371107d1081558187099e6699815005b1c20a1e42c3b0a5b855966c
+    size: 1867811
+Textures\CTF.utx:
+    sha256: d705f1c5af7138b9329553242e908e9d5f18f2b5001a228547bfd6ad15b811ed
+    size: 3192693
+Textures\ChizraEFX.utx:
+    sha256: d7449727eafad3c57e2d98299dc820942d83c0cf10ca5ee4d97104ac29950986
+    size: 5523
+Textures\Coret_FX.utx:
+    sha256: 768584c58add131e208b4eeb987bc9d64c24576c170f03a50947ca791ae1664f
+    size: 1024846
+Textures\Creative.utx:
+    sha256: b06e720dc35acd92dd293bfd8c466ce61c86b1ae81a65c4a967df4ff5ee54b00
+    size: 88960
+Textures\Crypt.utx:
+    sha256: c7d1581b42ebd1f489db39937a49007df707968207fb393873f620277639b5a5
+    size: 46517
+Textures\Crypt_FX.utx:
+    sha256: efc4d617b9bbccbf0c9e1190b573f6c863a919f4a53ac57776a4dd9d2b7ab67c
+    size: 240129
+Textures\Crypt2.utx:
+    sha256: ff2eeedcb4f0ffef3a2da134e787773c202ae61d27dcd03b14786251f4209b0d
+    size: 7370018
+Textures\DDayFX.utx:
+    sha256: fed066d01af927711540c6d9c9bbfaafdb18595db7a76aaad61f2fc7e38dcb4a
+    size: 1494874
+Textures\DMeffects.utx:
+    sha256: f016bd131892fac0e205956ad71228b3f26cca070e1c088fd7108f4197a0b5ae
+    size: 4169
+Textures\DacomaFem.utx:
+    sha256: 8ecd42bce5aaa491421b536ec27ec19de501d565e379e76ace3df82b29c1f97f
+    size: 1064340
+Textures\DacomaSkins.utx:
+    sha256: 16cb15d22b68b6da0d4a2cc4883c470c669c137f793af6331cf6b7f185e10fde
+    size: 1064346
+Textures\DecayedS.utx:
+    sha256: dbcad3cd472672447828c31f800ce1558c9ab82e6b2c3da5460e33423e067119
+    size: 11846698
+Textures\Detail.utx:
+    sha256: 42c79438778910108f46a40db91f0d1cb177555075da516031d2e46f00a7d837
+    size: 1729964
+Textures\Egypt.utx:
+    sha256: 56bf885229a3bb3419cf5f7244ebc10bda7fc8443aea26de63f7b3577d0cd43b
+    size: 1574033
+Textures\EgyptPan.utx:
+    sha256: 0ddcf7c6719be28504111c189097f76a53cb9cc52cfd80e8dc8c7da1bf2a4e49
+    size: 1544496
+Textures\FCommandoSkins.utx:
+    sha256: eaccf2d290e6002b4b023223cd849172f61532e076885bd4e94c4d5b45aea5a6
+    size: 5093279
+Textures\Faces.utx:
+    sha256: 260e4e39c439a95c8f89669f337a41ca8d19c12b4b1ae73e48706b2accf0ac93
+    size: 121216
+Textures\Female1Skins.utx:
+    sha256: c83114b73cba5571e0f5589698b2549540c960f6c52decc0f9c3b5926ff927ee
+    size: 886624
+Textures\Female2Skins.utx:
+    sha256: 198ea3d832875767932c9539fb2fedbea357b4cb670ed41d77f74f213ea74576
+    size: 709362
+Textures\FireEng.utx:
+    sha256: bc32e68f877a8932b0a2f6f34f2d9f3a6543896f927c98df595cc7408ee40685
+    size: 97702
+Textures\FlareFX.utx:
+    sha256: ac4b37733d783936f133c51c7863e422320d4bdacc2cfe842b92ea84b977591e
+    size: 185218
+Textures\FractalFX.utx:
+    sha256: 91142ed3f05d9654a772228dc44dbbbd29cd474960216eddd7bf5804053832fd
+    size: 1417366
+Textures\GenEarth.utx:
+    sha256: a80551f2430a6b35377175707bb18850e17f4b5510fecc8c863ac469ab2065e6
+    size: 6186030
+Textures\GenFX.utx:
+    sha256: 42e366fce123f084315f959a6abc1e9e64b12f9ceef531ecb6450a903d52870a
+    size: 2189510
+Textures\GenFluid.utx:
+    sha256: 2a9a6445db92f208a0413359f4c2e400a8d1261c97233596ef2b2105d8ed3540
+    size: 5510043
+Textures\GenIn.utx:
+    sha256: d5ec3f3ab0b51a8f5d209dcd4176130ccb045c53fa25323ce62ad13322128bbd
+    size: 3039598
+Textures\GenTerra.utx:
+    sha256: bbf7188c87aad1f72f7e53c5aa477bd568e44d9ac380d0973a89a02e8ba670ca
+    size: 5600891
+Textures\GenWarp.utx:
+    sha256: 02d7fc8a3ff0b4d0026db2bec9454bb373c2934a5ef945096a9e8a2670cfff1e
+    size: 271024
+Textures\GothFem.utx:
+    sha256: 5fa9b5438ebd3777113b6fd419f40edf1ad93929590cfd385af8367eb708bd07
+    size: 1330351
+Textures\GothSkins.utx:
+    sha256: d9cf5450ab19636509d6e367921d1c09cc57875abe1154bc2967caf872ed28de
+    size: 1064336
+Textures\GreatFire.utx:
+    sha256: 071187d1d3b5f27a3194cd5386087a0272172e84f276bb0453944da772418262
+    size: 13215
+Textures\GreatFire2.utx:
+    sha256: 734be8868827c34163be06321846bb06c332361d3d8d2685da0f4aa270a4d49c
+    size: 9029
+Textures\HubEffects.utx:
+    sha256: 82e8d5427588b4121dfb84b0ab90bc3a6f45c72e6888085d9ca66a3d9b44160e
+    size: 222123
+Textures\ISVFX.utx:
+    sha256: eee435fd7f335a0933d6305520f476ea462232376fed57fd7344a86223bc60b6
+    size: 24364
+Textures\Indus1.utx:
+    sha256: b347cdfb1486e8c3bd13d20c0420675759d126bc907c5083b9a218391ec38a8d
+    size: 1985856
+Textures\Indus2.utx:
+    sha256: c5451a4897e11d344ade18ac5b75b38cc084caccff0aa025271de19ce40a2ec0
+    size: 894817
+Textures\Indus3.utx:
+    sha256: f30a6589d4a07bd5ea28d232d50687ff5b6697e2d77f8a9478d364c29bebaa8c
+    size: 1844683
+Textures\Indus4.utx:
+    sha256: 0a97a2aa95d175c16abced982e3a325bc1b53cdba90b4e66082dc087cb68f163
+    size: 356893
+Textures\Indus5.utx:
+    sha256: be953c050d8c17c89a24412d30abdd7ab33e133c473cab212f05988cde6dc522
+    size: 3210994
+Textures\Indus6.utx:
+    sha256: 5cd8e64eb7656852a42325135c4f692f0f2131e872bc954d87cc0216c45c1a37
+    size: 2863307
+Textures\Indus7.utx:
+    sha256: e89e7aeaca56ae84a3dd34c98de04f0c4415efd040f4cfdc0eb993af7f208954
+    size: 497204
+Textures\JWSky.utx:
+    sha256: 855fc831bbd04f3ddd1b87e9441aeab8299f8267b40767c7795d535a0ea311fb
+    size: 583777
+Textures\LadderFonts.utx:
+    sha256: f9bfa74c37f7be1b3ccbaa5749f109d6f6fa5485c14113082304232e2912cd1b
+    size: 1103697
+Textures\LadrArrow.utx:
+    sha256: 3f225d7205d6003cf05658f13f33c26527b408b5b81d9fe4d4dd81d0703ff522
+    size: 46433
+Textures\LadrStatic.utx:
+    sha256: e5cea3096461ab7c811f1b4322032f902967d259c290a8ba8547ed9c13b09432
+    size: 264025
+Textures\LavaFX.utx:
+    sha256: f88f3ea30021d470a7cd9a22df595a9ea0abbfb41b0b71e401cea2031c47d102
+    size: 6731
+Textures\Lian-X.utx:
+    sha256: 8af8a84c764f0b4634582dd088be314a008b6460eef7fd36b11a307d9c755635
+    size: 670538
+Textures\Liquids.utx:
+    sha256: 25c3c65b414bc65d733a170f6efc337b45d9feb19f08478cd4b6bf1560876367
+    size: 14013
+Textures\Logo.utx:
+    sha256: e9d72bd8a3ee3eb46e4a9d9e6ff784d1ba6cf30f445e2136a76eec93de03a5d8
+    size: 275231
+Textures\Male1Skins.utx:
+    sha256: 473466adb03a665dd1025d5c8084b0922450ecc3e7f4e362bcce23bbde5c6569
+    size: 620722
+Textures\Male2Skins.utx:
+    sha256: b8e12438ba38f86e43513dc7a91d24eeca31358a4fe44d87aa7cc5a82bd2e5e6
+    size: 709358
+Textures\Male3Skins.utx:
+    sha256: d59010af82ea8207fa1435c133675b6673feabfb2dbc0c82bed076adc34024b0
+    size: 797992
+Textures\MenuGr.utx:
+    sha256: 9656353e945ea4bc307cc7572d98aba0b92fdeeccdeef5a3db2f132c82e05f64
+    size: 184340
+Textures\Metalmys.utx:
+    sha256: 4c6b3331f951f257aedf0e73823cd5657bf1096e3fdcf23768505bc86fa78641
+    size: 2120359
+Textures\Mine.utx:
+    sha256: 8643bbce650722fe31ef259aaf4650443de651ebe2f66541cae75e800b0a3afe
+    size: 6840408
+Textures\NaliCast.utx:
+    sha256: f959a46c92dd61d8db05db74be3faabec9c785e58965ea6d5bee03be5aaaceec
+    size: 8343055
+Textures\NaliFX.utx:
+    sha256: e68e5904a354336ad6463aad1f97db460384999e45968a55cc2cb6ed39627af9
+    size: 672838
+Textures\NivenFX.utx:
+    sha256: d0231575161a4b334f77c85ccf6e8ccc49f720b73ff616fa15c7999cf65173e6
+    size: 99220
+Textures\Old_FX.utx:
+    sha256: b29cd39632971bff86a5ec68a0426c8762b7450f624ce436a5a4660b95d78169
+    size: 805554
+Textures\Palettes.utx:
+    sha256: 3433145468a72f36e303036811b8d3be61aebd4f68f6c6ae1eb25a9ba2507bec
+    size: 421024
+Textures\PhraelFx.utx:
+    sha256: 7914869de87af9bdd3ee94e265d4eabb795cc3e301e1ba05280aa7c133239fb3
+    size: 49345
+Textures\PlayrShp.utx:
+    sha256: 904999b0e6fb78865385851ac638e92ed5b86eaa4747d9c3f4720a3831b8bee2
+    size: 3852760
+Textures\Queen.utx:
+    sha256: f0eb833978360402973fbb8299bea2ad5ac44b8b1cd5f557b8e5f15310d6db38
+    size: 2515085
+Textures\RainFX.utx:
+    sha256: 26c5a079a73c640d64f4b47a2f60cec3327bcd5b30b52d91e06541bd469e8cb3
+    size: 4672509
+Textures\Render.utx:
+    sha256: 16734cc9710fcdcf78598d23aa8025240b72b5b4a50078ba826e176c6a2da4a4
+    size: 88914
+Textures\RotatingU.utx:
+    sha256: 0fbb21f5d2631f58e81b9f3123ca6dc3d67b6f9771957c669ad5be52151628e1
+    size: 526756
+Textures\SGirlSkins.utx:
+    sha256: b2e51c68d1b1d2a18011fec6122da199842a8d8d3c49741c3b7db4f4b9d4f01c
+    size: 7226959
+Textures\Scripted.utx:
+    sha256: 781d877b695c6bfea6426e01c64afda903a05127ad7da69aef24b27fca73baea
+    size: 245078
+Textures\ShaneChurch.utx:
+    sha256: 315a191cad1ec6a2f747bd8f1be390f806804d65c2987e842e8ba5d129d9ef98
+    size: 5064523
+Textures\ShaneDay.utx:
+    sha256: 24411b71b6e93e710c21480a9a4a0bc7d95bdccf912d606d1d16d97b73714710
+    size: 388457
+Textures\ShaneSky.utx:
+    sha256: bff005b7b7ca131f9f83dc765ccc164111698018398f5dfa3d18b7cb6e638abd
+    size: 584486
+Textures\SkTrooperSkins.utx:
+    sha256: 4c8d737659a08002bbbf18ed4acd5a8c13ddb11004e06c60ed8983a40435ea4d
+    size: 266196
+Textures\Skaarj.utx:
+    sha256: 6be85cbd7c27b69275563a79681301bb56ae9b77e25cc1bdf37a60cfc09b7fea
+    size: 7371542
+Textures\SkyBox.utx:
+    sha256: 31a6efcfc2f80581426f501f520ad185f8657001902331a28016426186ec9634
+    size: 930722
+Textures\SkyCity.utx:
+    sha256: a53c143705d667d2c1570ee9c04b9ffcb25e4e3ea1350251edbd440c7dbb8e98
+    size: 13270191
+Textures\Slums.utx:
+    sha256: 1ef0b1ad2648c6c9ce0ae7acb9fd95d4dc046b85d8f92c02efba94d6b83b1159
+    size: 3770831
+Textures\Soldierskins.utx:
+    sha256: 89408c52dfa8b9b7aa1931f44500b7f091720d6ddb6bf58c363a0efed4c72151
+    size: 7184269
+Textures\SpaceFX.utx:
+    sha256: 9fc2501e4ec00c0f33eeecf96a406215eb7c9758f5b0cd77b225c7a5b6275ea8
+    size: 1124420
+Textures\Starship.utx:
+    sha256: 5489aa789f3ca8510d74a3c5b83c773c779efac3f07aa34ac9423ff588245eb7
+    size: 7590442
+Textures\TCrystal.utx:
+    sha256: 0986f88b9282569a84a4f9270a5afed17e6fc3fb2a50df71874e08ddeb26480e
+    size: 158014
+Textures\Terranius.utx:
+    sha256: b655651cb3ce97f083e4830796c89f2e25f125c45dcf2e192028ca57b1e7238a
+    size: 2291
+Textures\TrenchesFX.utx:
+    sha256: 570ee52166f14c50d0d0ec1b4d7e2f4d0de267ecdebeb92227d7fbb70e583abd
+    size: 1110811
+Textures\UT.utx:
+    sha256: 4b4a65795c87dcf01f6d814dadbb061a38b1a124558891756508d3e69c18745b
+    size: 3970257
+Textures\UT_ArtFX.utx:
+    sha256: d508a314d63f8d9a8129ede291fdab0f622f919d5cafbe65b3efdbf408eb91f2
+    size: 1992926
+Textures\UTbase1.utx:
+    sha256: cb8655bde94bb9dcaa93356f6e499c2084e841085964266a8c9bebf8df8a0c8e
+    size: 544617
+Textures\UTcrypt.utx:
+    sha256: b838caa693f1ba3d7a0ab00257598c91cdde09e2eb42c0d937dadfe2816b3ab3
+    size: 2104575
+Textures\UTtech1.utx:
+    sha256: 097dca43322da09b398b5c87feb85287e93deba2ab1b06dc7ef94b4db32fd885
+    size: 11206345
+Textures\UTtech2.utx:
+    sha256: 9f8dbf584f43635fc2a77a465fb193177f2b8aee04062248cc1d5963fcc038ef
+    size: 3404233
+Textures\UTtech3.utx:
+    sha256: 09254a61f474893c1b6c9020e7802bf1a7d91b644b8161956a396d6f6ab3209a
+    size: 285894
+Textures\UWindowFonts.utx:
+    sha256: 91ac2a325d361f46948ebbbda5cf5431add4930e7466667f0fa36819606642c7
+    size: 1755486
+Textures\XFX.utx:
+    sha256: 54fe1249f498f56e4f419ba298445e9728392f1b05050be4fdaa5ba9081d3bf0
+    size: 198416
+Textures\XbpFX.utx:
+    sha256: d84b72c643e5e925c9046ceaed0327816089c658f525cd3842dd4f11f8716083
+    size: 2431423
+Textures\Xtortion.utx:
+    sha256: d812f2536d462f7fee6fd2fb08db0daa65634f1cb5c4c8ffd9d3e7a8a3528072
+    size: 853804
+Textures\castle1.utx:
+    sha256: 22de5e4a5d2ab55b8bc59770490e9da64524f2e152f60018eb47f411e4d0d4e2
+    size: 177545
+Textures\city.utx:
+    sha256: 68e04d5784243b29b2a94b0a31644d4a7f185b1e1021488bad8b61f1859f4fb9
+    size: 5839832
+Textures\commandoskins.utx:
+    sha256: 7cd47f6c6f347cb86cd83cbda3251f51543ab18d725d56f22def751ee1e3f390
+    size: 4318050
+Textures\credits.utx:
+    sha256: 6e68b638d9f1cf09316aadd7795a7ce04cce29cee351086ab633d8f5abfc0c51
+    size: 1469689
+Textures\eol.utx:
+    sha256: 6b3d4d3992931a97e0f1766f89c587c016c54e91abba1c2da43b446d2f315760
+    size: 3873351
+Textures\noxxpack.utx:
+    sha256: 5cff24f22b3f5682fefeec9fb21860fedb40c70c26dbe2689543ca44391d628a
+    size: 914942
+Textures\of1.utx:
+    sha256: 8d97b5d592105e0278dee3f95861765acf6c288540a5a306e169cb570b889cf4
+    size: 177711
+Textures\tcowmeshskins.utx:
+    sha256: 817ddc845eeaa81c6b19bd2b85c21f1f03d465dbddc4bb44f4385a9facc32ffd
+    size: 613832
+Textures\tnalimeshskins.utx:
+    sha256: 453fbd2fa65db89a7bb5bdb77f720f0d656c674df29c3e941a1ced2231bb6e00
+    size: 542925
+Textures\tskmskins.utx:
+    sha256: a86548af474f9d9b019512f4766846e6d0faffe3faf4432bd13588e731c8a9a8
+    size: 4076854
+Textures\xutfx.utx:
+    sha256: a468b57d52f9719287146ff9d41bb14e39b67743a586a42302dd5eba7cc80555
+    size: 335490
+Web\current.uhtm:
+    sha256: b0286c1fa1d756d7ea2987e28154eec518865abf4533ead52c39e5092593bcf8
+    size: 563
+Web\current_console.uhtm:
+    sha256: 4e691e237579ee180e2669d54521958589d0ac5243e104d812b1dc2df0f1bdbf
+    size: 565
+Web\current_console_log.uhtm:
+    sha256: 4ca0d435df808c715cdd29ab4886b8ce076821ec0124c536b2b859caf5105364
+    size: 4560
+Web\current_console_send.uhtm:
+    sha256: e0e274dcbfd559937d817a6ad09b4d23d3adb889d28af96ae8e7f9992a0f85e1
+    size: 524
+Web\current_game.uhtm:
+    sha256: 17c6ab0c7a31417b183aff89860db207666aa227e6704c200d69e881beaa2cd3
+    size: 4638
+Web\current_menu.uhtm:
+    sha256: 860dfc28a0fef9da3bc4785ca64f794ff870434af013b1e3fa9c126084127005
+    size: 2597
+Web\current_mutators.uhtm:
+    sha256: 034918ba337f1b6a0df2e03b3f496194e2fe57fd649de8019ed15e55a63e8a71
+    size: 5583
+Web\current_players.uhtm:
+    sha256: 6aa8f1be81c1a59dd9fab4826d2ce66678b1b853df6f143c8ec514c91c313b01
+    size: 5606
+Web\defaults.uhtm:
+    sha256: 653bff029943f3ec24354ca55c35fc4ea73eae1635628f5ed01323e0fb0fe21a
+    size: 563
+Web\defaults_bots.uhtm:
+    sha256: bfd20f768ae0c41e7a647a229ea3d099b43e0eedb5eb72e45363aab39c6765c1
+    size: 5815
+Web\defaults_ippolicy-d.uhtm:
+    sha256: 7dbbeddec6bbff31ac1c2fb5e3a8151b97c05584126609506a82bfc8faa358db
+    size: 480
+Web\defaults_ippolicy-f.uhtm:
+    sha256: 85b4da4a81552ee82f465ae0d5502cd22dd48cddba463bcd028ad10f12c8bdc1
+    size: 1982
+Web\defaults_ippolicy-h.uhtm:
+    sha256: 851df9333bd3a762933422ec60ef6ec0a1a96ec4d79989fe0bf318aed4b55f79
+    size: 2872
+Web\defaults_maps.uhtm:
+    sha256: 58ff9cbad80815366e0b8acc24fdbb927a65f9396c662667987fbcc7d5304185
+    size: 6089
+Web\defaults_menu.uhtm:
+    sha256: 3815e6207124c7336270b60d7d9253eacd993fca691ae4da7ea3027d53771e18
+    size: 3133
+Web\defaults_rules.uhtm:
+    sha256: 2e1b0790e963ed653ae302620cb46adf44ba6ad2c6ea059ed098fc660a832248
+    size: 5456
+Web\defaults_server.uhtm:
+    sha256: e06e9ad8190cd3aa9f3d0dab1cebd5f673aa55d8ee5766679335360ebb67f15f
+    size: 5994
+Web\defaults_settings.uhtm:
+    sha256: add59c8fd85c82664207e545251c7f59e369cbaf0c13a9eed9563b77d8ce2f3e
+    size: 5495
+Web\images\1-1.gif:
+    sha256: dcffd8565cf8a9e03020fe9b30bc160de93d79234039735d2be3777145c715ab
+    size: 106
+Web\images\1-2.gif:
+    sha256: 0e7e93e0f1eee6cbd5933b6dc334c15d6aafb17cff0d669491a4075ab0e15e91
+    size: 124
+Web\images\1.gif:
+    sha256: 2dfe28cbdb83f01c940de6a88ab86200154fd772d568035ac568664e52068363
+    size: 43
+Web\images\2-1.gif:
+    sha256: 75d90b418229ccc82b9a489f3f80afd3d51e2cb26221ae8e315706f5f744bf52
+    size: 213
+Web\images\2-2.gif:
+    sha256: 41b1142cb3e79574018063eb8349874175e24e1e24115bf02d3d4b3c2384be40
+    size: 700
+Web\images\3-1.gif:
+    sha256: 6ae3f367df88d0affa346f0c97925f9fbdd3a8ef18d40c13e2ea6fb297bc059c
+    size: 112
+Web\images\3-2.gif:
+    sha256: 70f1bd7ae8ee0828bb34f956ad35c0bc9b43fc1ab57da3a453f2baa519beb259
+    size: 132
+Web\images\4-1.gif:
+    sha256: eb46e58ae134bbe475c75a8fcd2bd129730e61d88ceacfd3bdddc1015fc45160
+    size: 382
+Web\images\4-2.gif:
+    sha256: 17d50b2f53e97f41205b85054575deddff33c6ec86bff5c38feab82eb79dff4e
+    size: 148
+Web\images\5-1.gif:
+    sha256: d1d3c46b0f5d6a50b6eb26a857d49e2966fdc68494db89cf1e3eb720264659d7
+    size: 218
+Web\images\5-2.gif:
+    sha256: 38f9dcff4fb72131cb301c9945edbde227fa77c390e68f9178b815044dd3b394
+    size: 218
+Web\images\6-1.gif:
+    sha256: 01caef474d91c9c4b02f26bb2055374e1659a719abf97948f6ec2b76fa49f5cc
+    size: 105
+Web\images\6-2.gif:
+    sha256: 69f8823284a896f50c115e8958318adfb1f413e4317520f0ffe28eed1e08520d
+    size: 107
+Web\images\7-1.gif:
+    sha256: c0c9fb3aec30eb865ec3eda3d65afb130202447e67b0ef8e899dd227aba04fcf
+    size: 189
+Web\images\7-2.gif:
+    sha256: 0d45b93823776266a5cbb4a7395e8961ee36c16d9bdc2b96265f3cac08023c79
+    size: 210
+Web\images\7-3.gif:
+    sha256: 97d5f8cd8e58d69812d868ffc4175d8029b5972af90b27710f9c6b9d1de1adf4
+    size: 256
+Web\images\image.gif:
+    sha256: 0f06477968ab1259790cd3b827c5985b1db37fa1926a1c111b73250585790cad
+    size: 5916
+Web\images\logo.gif:
+    sha256: da01635437a9a60e96cdebdeb19b73bc9546711a6e7df52ca416c1440602a898
+    size: 2795
+Web\images\m1-1.gif:
+    sha256: dac733c136523007d81cfcdf89b50e0a9ff1319acfa121d3dca279788665cc56
+    size: 253
+Web\images\m1-2.gif:
+    sha256: 8d2fa3af04289ba3f3113029e89df1c69728b99da65a5f5607b0548775c5f140
+    size: 257
+Web\images\m3-1.gif:
+    sha256: 1b8834d134e7fbd568052004f7cf88c83b731d255304bfdaa6d10b33bd8bcd9a
+    size: 226
+Web\images\m3-2.gif:
+    sha256: e2dc251357020a373f3b9f5ff5106ab9101954bf26e09658693d9c73697af5d3
+    size: 223
+Web\images\right.gif:
+    sha256: c4d965845e60ea1c6e9fd3f6fe0de8fcf7241dd949ffdd1e54222d0a7a26c0e0
+    size: 1016
+Web\menu.uhtm:
+    sha256: 414077cde7901893f4a54e0376a3f6e50b3181f6f95b16f39839e7cff48cdf5f
+    size: 1872
+Web\message.uhtm:
+    sha256: 779b4149f92f506aaf546aedfc3b6754f4f63c7d8350fbbc08162f155efde12d
+    size: 4358
+Web\plaintext\current.uhtm:
+    sha256: 0d550127b40bcc32ffa22fdcbe5b3c86f812ce82c2dc33036792637e3c6464d1
+    size: 345
+Web\plaintext\current_console.uhtm:
+    sha256: fda56fd2c0e7d7b51179a3fd26b2b529fec1d2d08235fa4e3967dc5917aa6eb3
+    size: 322
+Web\plaintext\current_console_log.uhtm:
+    sha256: 3dd6e31c1273072497c441e916874094fd206b7ba3dfef8aaa1f344d6dab6bcd
+    size: 270
+Web\plaintext\current_console_send.uhtm:
+    sha256: 66a225f4aa3f91c20d2b55ee0c736821df68953131d0142835b9482e94cd11de
+    size: 485
+Web\plaintext\current_game.uhtm:
+    sha256: 8ded57eae4f435e4572161cadbbc6dedd2ee3e5c06d9e88fb978129ac250d797
+    size: 585
+Web\plaintext\current_menu.uhtm:
+    sha256: c7034d2a2df3f7fe117c7d73f5aa3e4f92e722b338c490c8465fca59fb998626
+    size: 881
+Web\plaintext\current_mutators.uhtm:
+    sha256: 6dab2b737824cd751ab6c98c46baf7d87d6cd0ffa91e4a5d60c0a40b01be4e2e
+    size: 1299
+Web\plaintext\current_players.uhtm:
+    sha256: 26598a4af7a01d427ee5342fa7d22a60e05563a6ff60290c20bb1bb550637886
+    size: 1325
+Web\plaintext\defaults.uhtm:
+    sha256: 0d550127b40bcc32ffa22fdcbe5b3c86f812ce82c2dc33036792637e3c6464d1
+    size: 345
+Web\plaintext\defaults_bots.uhtm:
+    sha256: ac752ced08ad37a57dc1fc43f2b39f7682de369a6e49de9dca5fc78361c6d683
+    size: 1642
+Web\plaintext\defaults_ippolicy-d.uhtm:
+    sha256: 7dbbeddec6bbff31ac1c2fb5e3a8151b97c05584126609506a82bfc8faa358db
+    size: 480
+Web\plaintext\defaults_ippolicy-f.uhtm:
+    sha256: cc14dcbbc4f05f1c252de976c1891254d1afa1701997015704d1af4b200084c6
+    size: 393
+Web\plaintext\defaults_ippolicy-h.uhtm:
+    sha256: 5a6d3ecf41ed9fac6804bb719a35381c2c0dab9b935ae254528038a6be9ddc5c
+    size: 277
+Web\plaintext\defaults_maps.uhtm:
+    sha256: 3ee8082d619249b7c5d9cdbd5e64ad5ee39dd549ba686dfbf97d51508b6fa53d
+    size: 1912
+Web\plaintext\defaults_menu.uhtm:
+    sha256: 18ff1a7e150e9c2ce4eb497d711b4c9dabdf146063132f73e7d89430f4c415df
+    size: 1748
+Web\plaintext\defaults_rules.uhtm:
+    sha256: 3fee29a4d5726dba714023b153498cf65d21b1924955a384eed88149a83a4edf
+    size: 1280
+Web\plaintext\defaults_server.uhtm:
+    sha256: d9ee0067cf678193686a31bae63c00dae6a48aa2df55432d834de952bf3eb15b
+    size: 1823
+Web\plaintext\defaults_settings.uhtm:
+    sha256: 58699e63fa982d7db280b8ee2819a1e99538366631e803135cc237063f1b08c6
+    size: 1316
+Web\plaintext\menu.uhtm:
+    sha256: cf1a3f0ac4910fd11c1dd4254fa3f9ba1bfe1a398c85c66bb0cb36bc2b18943f
+    size: 639
+Web\plaintext\message.uhtm:
+    sha256: bb349d2b815408af9b62681ca6de7fd5ddbb1521228ffa81a1dbb0da73fad28b
+    size: 190
+Web\plaintext\root.uhtm:
+    sha256: 7263df6eb71e7702229f09d76e0674975ff54849f80a17ee759dbf05befe8541
+    size: 359
+Web\root.uhtm:
+    sha256: 115dcbd225a48eea2da6da1d9f37612f333516d33b6394194f5777a4db2561f0
+    size: 538
