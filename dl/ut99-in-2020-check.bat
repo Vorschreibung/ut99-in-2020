@@ -1,5 +1,5 @@
 @ECHO OFF
-REM UT99 in 2020 Companion Script v1.1 (2020-09-06) (b0b96cdd2d251477)
+REM UT99 in 2020 Companion Script v1.2 (2020-09-07) (d221325f285d52f0)
 REM https://vorschreibung.github.io/ut99-in-2020/
 REM - - - - - - - - - - - - - - - - - - - - - - - 
 REM this is a simple companion script to the UT99 in 2020 guide that is to be 
@@ -26,7 +26,7 @@ IF !size!==30778134 (
     ECHO GOTY disk edition^^!
     ECHO This causes network mismatch problems with other players who lack
     ECHO it in multiplayer and its usage is widely discouraged.
-    ECHO ^( see http://www.google.com/ ^)
+    ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#goty-disc-version ^)
     REM ?BAT? ECHO. prints a newline
     ECHO.
 )
@@ -38,7 +38,7 @@ IF !size!==249856 (
     ECHO the official 436 patch over it.
     ECHO This may cause mismatch problems in netplay with non-steam editions.
     ECHO Please install the official 436 patch.
-    ECHO ^( see http://www.google.com/ ^)
+    ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#goty-steam-version ^)
     ECHO.
 )
 
@@ -46,7 +46,7 @@ REM R3. check for d3d10drv.dll
 IF NOT EXIST "./System/d3d10drv.dll" (
     ECHO [ERROR] You are missing the d3d10 Video Driver^^!
     ECHO This causes stability issues and various display problems on modern systems.
-    ECHO ^( see http://www.google.com/ ^)
+    ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#use-updated-d3d10-video-driver ^)
     ECHO.
     SET "d3d10MissingOrDisabled=1"
 )
@@ -56,7 +56,7 @@ IF NOT EXIST "./System/dinput.dll" (
     ECHO [ERROR] You are missing the dinput Compatibility Fix^^!
     ECHO This causes forced mouse acceleration due to a compatibility issue
     ECHO as well as causing glitches after ALT+Tabing.
-    ECHO ^( see http://www.google.com/ ^)
+    ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#use-ut99dinput ^)
     ECHO.
 )
 
@@ -79,7 +79,7 @@ FOR /F "usebackq tokens=*" %%A IN ("./System/UnrealTournament.ini") DO (
         IF "!d3d10MissingOrDisabled!"=="" (
                 IF "!section!"=="Engine.Engine" IF "!key!"=="GameRenderDevice" IF NOT "!val!"=="D3D10Drv.D3D10RenderDevice" (
                     ECHO [ERROR] You have not enabled the D3D10RenderDevice.
-                    ECHO ^( see http://www.google.com/ ^)
+                    ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#changing-the-video-driver ^)
                     ECHO.
                     SET "d3d10MissingOrDisabled=1"
                 )
@@ -100,7 +100,7 @@ FOR /F "usebackq tokens=*" %%A IN ("./System/UnrealTournament.ini") DO (
         IF "!section!"=="Engine.Player" IF "!key!"=="ConfiguredInternetSpeed" IF NOT "!val!"=="20000" (
             ECHO [ERROR] You have set non-standard Internet Netspeed. This can lead to low ping
             ECHO You have currently set ConfiguredInternetSpeed=!val!, we expected 20000.
-            ECHO ^( see http://www.google.com/ ^)
+            ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#configuring-netspeed ^)
             ECHO.
         )
 
@@ -108,7 +108,7 @@ FOR /F "usebackq tokens=*" %%A IN ("./System/UnrealTournament.ini") DO (
         IF "!section!"=="WinDrv.WindowsClient" IF "!key!"=="UseDirectInput" IF NOT "!val!"=="True" (
             REM @TODO check if ddinput dll exists
             ECHO [ERROR] You have disabled Direct Input. This leads to buggy mouse aim.
-            ECHO ^( see http://www.google.com/ ^)
+            ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#use-ut99dinput ^)
             ECHO.
         )
 
@@ -117,7 +117,7 @@ FOR /F "usebackq tokens=*" %%A IN ("./System/UnrealTournament.ini") DO (
             ECHO [warning] You have allowed automatic downloads while joining servers.
             ECHO This could download and execute harmful files on your PC^^!
             ECHO Make sure to only connect to trusted servers as long as you have this enabled.
-            ECHO ^( see http://www.google.com/ ^)
+            ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#disable-automatic-downloads ^)
             ECHO.
         )
     )
@@ -131,31 +131,31 @@ IF "!d3d10MissingOrDisabled!"=="" (
                 ECHO [ERROR] For d3d10, your RefreshRate ^(!d3d10RefreshRate!^) and
                 ECHO FPSLimit ^(!d3d10FpsLimit!^) do not match^^!
                 ECHO This will result in too fast/too slow gameplay^^!
-                ECHO ^( see http://www.google.com/ ^)
+                ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#disable-vsync ^)
                 ECHO.
             )
         )
         IF "!d3d10RefreshRate!"=="" IF "!d3d10FpsLimit!"=="" (
             ECHO [ERROR] For d3d10, you have set neither RefreshRate no FPSLimit^^!
             ECHO This will result in too fast/too slow gameplay^^!
-            ECHO ^( see http://www.google.com/ ^)
+            ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#disable-vsync ^)
             ECHO.
         )
         IF NOT "!d3d10RefreshRate!"=="" IF "!d3d10FpsLimit!"=="" (
             ECHO [ERROR] For d3d10, you haven't set FPSLimit^^!
             ECHO This will result in too fast/too slow gameplay^^!
-            ECHO ^( see http://www.google.com/ ^)
+            ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#disable-vsync ^)
             ECHO.
         )
         IF "!d3d10RefreshRate!"=="" IF NOT "!d3d10FpsLimit!"=="" (
             ECHO [ERROR] For d3d10, you haven't set RefreshRate^^!
             ECHO This will possibly result in too fast/too slow gameplay^^!
-            ECHO ^( see http://www.google.com/ ^)
+            ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#disable-vsync ^)
             ECHO.
         )
     ) ELSE (
         ECHO [warning] You have enabled Vsync.
-        ECHO ^( see http://www.google.com/ ^)
+        ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#disable-vsync ^)
         ECHO.
     )
 )
@@ -190,17 +190,17 @@ REM R10. check alt-tab - report only once in the case of both being set to defau
 IF "!defaultTab!"=="1" IF "!defaultAlt!"=="1" (
     ECHO [warning] You have both Alt and Tab set to default. 
     ECHO This interferes with ALT+Tabing.
-    ECHO ^( see http://www.google.com/ ^)
+    ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#freeing-alttab ^)
     ECHO.
 ) ELSE (
     IF "!defaultTab!"=="1" IF "!defaultAlt!"=="" (
         ECHO [warning] You have Tab set to default. This interferes with ALT+Tabing.
-        ECHO ^( see http://www.google.com/ ^)
+        ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#freeing-tab ^)
         ECHO.
     )
     IF "!defaultTab!"=="" IF "!defaultAlt!"=="1" (
         ECHO [warning] You have Alt set to default. This interferes with ALT+Tabing.
-        ECHO ^( see http://www.google.com/ ^)
+        ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#freeing-alt ^)
         ECHO.
     )
 )
@@ -223,7 +223,7 @@ FOR /F "usebackq tokens=*" %%A IN ("./System/Manifest.ini") DO (
         REM R11. check the currently installed version
         IF "!section!"=="UnrealTournament" IF "!key!"=="Version" IF NOT "!val!"=="436" (
             ECHO [ERROR] You have installed version !val! while the latest official patch is 436.
-            ECHO ^( see http://www.google.com/ ^)
+            ECHO ^( see https://vorschreibung.github.io/ut99-in-2020/#installing-the-latest-official-patch-436 ^)
             ECHO.
         )
     )
