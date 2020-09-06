@@ -15,7 +15,7 @@ while :; do
         -h|-\?|--help)
             usage; exit ;;
         -c|--commit)
-            preview=1
+            commit=1
             ;;
         --)
             shift
