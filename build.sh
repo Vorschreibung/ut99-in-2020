@@ -55,7 +55,7 @@ if [[ $commit ]]; then
         git add "$pages_repo_dir/$1" || die "failed to add $1"
     }
 
-    for html in "${output_files[@]}"; do
-        cp_and_add "$html"
+    for file in "${output_files[@]}"; do
+        cp_and_add "$file" || die "failed to cp_and_add $file"
     done
 fi
