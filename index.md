@@ -61,7 +61,7 @@ your client, it is now defunct and neither the GOG nor Steam Version ships with
 it.
 
 The DirectX component is a DirectX 7 driver that you won't need on modern
-systems, especially because we will exchange the shipped DirectX ut99 video driver
+systems, especially because we will exchange the shipped DirectX UT99 video driver
 with a more modern version to fix compatibility issues.
 
 From there on continue the installation until it succeeds.
