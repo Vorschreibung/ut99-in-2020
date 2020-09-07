@@ -57,7 +57,7 @@ In this step make sure to **uncheck** both the `NetGames USA Stat Utils` and
 `DirectX` components.
 
 The NetGames component was an online service that received gameplay stats from
-your client, it is not defunct and neither the GOG nor Steam Version ships with
+your client, it is now defunct and neither the GOG nor Steam Version ships with
 it.
 
 The DirectX component is a DirectX 7 driver that you won't need on modern
