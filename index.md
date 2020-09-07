@@ -152,7 +152,7 @@ Why to do it:
 Get [UT99Dinput](https://github.com/Vorschreibung/UT99DInput) ([download](https://github.com/Vorschreibung/UT99DInput/releases/download/v3/UT99DInput-v3.zip)) ([checksum](checksums.html#ut99dinput)) and put the `dinput.dll` in your `UT99\System` directory.
 
 In the menu ingame, make sure to enable the **DirectInput** setting found in the
-**Controls** Settings Tab.
+**Controls** Settings Tab and then restart your client.
 
 ## Configuration
 ### Disable vsync
