@@ -259,7 +259,7 @@ I'm aware of the following alternative "modern" video drivers:
 - [D3d9]
 -->
 
-## Tips & Tricks
+## Post Installation
 ### Installing .umod files
 Drop [this script](dl/ut99-install-umod.bat) into the root of your UT99
 Installation and then drag and drop the `.umod` files you want to install onto
